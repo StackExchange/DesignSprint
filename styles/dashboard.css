@@ -34,3 +34,21 @@ a.s-card:hover,
     height: 10px;
     margin-right: 8px;
 }
+
+.live-badge-small {
+    background-color: rgba(0, 0, 0, .5);
+    width: fit-content;
+    padding: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 4px;
+}
+
+.dot-small {
+    width: 8px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    height: 8px;
+    margin-right: 4px;
+}
