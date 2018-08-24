@@ -1,0 +1,18 @@
+.discover-nav:hover svg {
+	fill: #000;
+}
+
+.discover-nav.disabled {
+	cursor: default;
+}
+
+.discover-nav.disabled svg {
+	fill: #C8CCD0;
+}
+
+a.s-card:hover,
+.s-card.hover:hover {
+	box-shadow: 0 4px 12px rgba(36,39,41,.2)!important;
+	text-decoration: none;
+	cursor: pointer;
+}

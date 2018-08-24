@@ -1,0 +1,482 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://unpkg.com/@stackoverflow/stacks">
+		<link rel="stylesheet" href="styles/inherit.css">
+		<link rel="stylesheet" href="styles/company-qa.css">
+	</head>
+
+	<body class="home-page unified-theme new-topbar">
+		<header class="top-bar js-top-bar _fixed top-bar__network">
+    		<div class="-container">
+        		<div class="-main">
+                    <a href="https://gh.stackoverflow.com/pages/Careers/DesignSprint" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})"><span class="-img _glyph">Stack Overflow</span></a>
+				</div>
+
+            	<form id="search" action="/search" method="get" class="searchbar js-searchbar " autocomplete="off" role="search">
+                    <div class="ps-relative">
+                        <input name="q" type="text" placeholder="Search questions&#44; jobs&#44; companies" value="" autocomplete="off" maxlength="240" class="f-input js-search-field ">
+                        <button type="submit" aria-label="Search questions&#44; jobs&#44; companies" class="s-btn s-btn__primary btn-topbar-primary js-search-submit"><svg aria-hidden="true" class="svg-icon mx0 iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></button>
+                    </div>
+            	</form>
+				<ol class="-secondary js-secondary-topbar-links drop-icons-responsively the-js-is-handling-responsiveness">
+	        		<li class="-item searchbar-trigger js-searchbar-trigger"><a href="#" class="-link"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></a></li>
+	                <li class="-item">
+		                <a href="/users/7439837/piper-lawson" class="my-profile js-gps-track" data-gps-track="profile_summary.click()">
+		                	<div class="gravatar-wrapper-24" title="Piper Lawson"><img src="https://lh6.googleusercontent.com/-8zNw0Ta8B4U/AAAAAAAAAAI/AAAAAAAAACU/6Lfp2mHwT6I/photo.jpg?sz=48" alt="" width="24" height="24" class="-avatar js-avatar-me"></div>
+		                    <div class="-rep js-header-rep" title="your reputation: 1">1</div>
+	                	</a>
+	            	</li>
+			        <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages">
+				            <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewBox="0 0 20 18"><path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z"></path></svg>
+				            <span class="indicator-badge js-unread-count _important" style="display: none;"></span>
+				        </a>
+				    </li>
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive">
+				            <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"></path></svg>
+				            <span class="indicator-badge js-unread-count _positive" style="display: none;"></span>
+				        </a>
+				    </li>
+
+				    <li class="-item review-button-item" data-remove-order="2">
+				        <a href="/review" class="-link js-gps-track js-review-button _danger-indicator" title="Review queues - help improve the site" data-gps-track="review_popup.click({ in_danger: true })">
+				            <svg aria-hidden="true" class="svg-icon iconReviewQueue" width="18" height="18" viewBox="0 0 18 18"><path d="M16 7.5l-5 4.97-1.79-1.77a1 1 0 0 0-1.4 0l-2.1 2.1a1 1 0 0 0 0 1.4L8.5 17H2a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v4.5zM12 7H2v2h10V7zm2-4H2v2h12V3zM2 11v2h3v-2H2zm16-.5l-7 7-4-4L8.5 12l2.5 2.5L16.5 9l1.5 1.5z"></path></svg>
+				        </a>
+
+				    </li>
+				    <li class="-item help-button-item" data-remove-order="1"><a href="#" class="-link js-help-button" title="Help Center and other resources">
+				        <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"></path></svg>
+				    </a></li>
+
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 1 Stack Exchange site">
+				            <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"></path></svg>
+				        </a>
+				    </li>
+				</ol>
+			</div>
+		</header>
+
+		<!--//////////////////// BEGIN PAGE /////////////////////-->
+
+				<div class="w100 mx-auto mt64 mb64 fc-medium" style="max-width:1264px; padding-left:15px; padding-right:15px;">
+				  <div id="header-content" class="grid gs32 ai-center md:fd-column">
+				    <img class="wmx1 grid--cell ba bc-black-3 bg-white" role="presentation" alt="" src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" id="gh-logo">
+				    <div id="company-name-tagline" class="grid--cell pt16 md:fd-column md:ta-center md:pt0 md:mb0">
+				      <h1 class="fs-display1 lh-xs fw-normal mb8 md:pt16">Froogle</h1>
+				      <p class="fs-title fc-light lh-md">Our vision for commerce is one that is enabled by people, powered by technology, and open to everyone.</p>
+				    </div>
+				  </div>
+
+				  <div id="navigation-bar" class="grid by py16 bc-black-3 mb24 mt12">
+				    <div id="nav-items" class="grid--cell byw4 mr-auto">
+				      		      <a class="s-btn s-btn__md grid--cell" href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company">Home</a>
+				      		      <a class="s-btn s-btn__md grid--cell" href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company-questions">Questions & Answers</a>
+				      <a class="s-btn s-btn__md grid--cell" href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company-review">Reviews</a>
+				      <button class="s-btn s-btn__md" type="button">Jobs</button>
+				      <button class="s-btn s-btn__md" type="button">About</button>
+				    </div>
+				    <div class="grid--cell ml-auto">
+				      <button class="s-btn s-btn__primary" type="button">Follow</button>
+				      <button class="s-btn s-btn__primary" type="button">Ask a Question</button>
+				      <button class="s-btn s-btn__outlined" type="button">Upvote Company</button>
+				      <button class="s-btn s-btn__outlined" type="button">Downvote Company</button>
+				      <button class="s-btn s-btn__outlined" type="button">&bull; &bull; &bull;</svg>
+									        </button>
+				    </div>
+				  </div>
+				  <!-- BEGIN PAGE CONTENT -->
+				  <div class="grid gs32 gsx">
+
+				    <!-- BEGIN LEFT COLUMN -->
+				    <div class="grid--cell7">
+
+				      <div class="fs-body2 mt24">
+				        <div class="grid ac-center jc-space-between">
+				          <div class="grid--cell">
+				            <h2 class="fs-headline1 fw-normal">Froogle Questions</h2>
+				          </div>
+				          <div class="grid--cell"><button class="s-btn s-btn__primary s-btn__md" type="button">Ask Question</button></div>
+				        </div>
+				        <p class="fs-body3 mt16">Ask and communicate with Froogle about products, technologies, and careers.</p>
+
+		            <div class="grid ai-center mb16 fw-wrap">
+		                        <div class="grid--cell fl1 fs-body3">
+		                            381 questions
+		                        </div>
+
+		                        <a class="s-btn mr8 grid--cell" href="/unanswered">Answer questions</a>
+
+		                    <div class="grid--cell">
+
+		<div class="grid tabs-filter s-btn-group tt-capitalize">
+		        <a class="grid--cell s-btn s-btn__muted s-btn__outlined py8 ws-nowrap" href="/questions?sort=newest" data-nav-xhref="" title="The most recently asked questions" data-value="newest" data-shortcut="N">
+		            newest</a>
+		        <a class="grid--cell s-btn s-btn__muted s-btn__outlined py8 ws-nowrap" href="/questions?sort=active" data-nav-xhref="" title="Questions that have recent activity" data-value="active" data-shortcut="A">
+		            active</a>
+		            <nav class="grid ps-relative dropdown-container s-btn p0 baw0">
+		            <a class="s-btn s-btn__muted s-btn__outlined s-btn__dropdown brr-sm py8 ws-nowrap js-dropdown-toggle youarehere is-selected">votes</a>
+		            <ul class="dropdown dropdown-questions-filters d-block d-none">
+		                    <li><a href="/questions?sort=featured" class="disabled" title="Questions with open bounties">bounties</a></li>
+		                    <li><a href="/questions?sort=votes" class="selected" title="Questions with the most votes">votes</a></li>
+		                    <li><a href="/questions?sort=frequent" class="disabled" title="Questions with the most links">frequent</a></li>
+		            </ul>
+		        </nav>
+		</div>
+
+		                    </div>
+		                </div>
+
+
+				        <div class="mixed-question-list mixed-site-content">
+				          <div class="question-summary narrow">
+				            <div onclick="window.location.href='/c/stack-overflow/questions/1131'" class="cp">
+				              <div class="votes">
+				                <div class="mini-counts"><span title="1 vote">543</span></div>
+				                <div>votes</div>
+				              </div>
+				              <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+				                <div class="mini-counts"><span title="1 answer">4</span></div>
+				                <div>answers</div>
+				              </div>
+				              <div class="views">
+				                <div class="mini-counts"><span title="21 views">2.1k</span></div>
+				                <div>views</div>
+				              </div>
+				            </div>
+
+				            <div class="summary">
+				              <div class="grid mb8">
+				                <div class="grid--cell">
+				                  <div class="channel10002-avatar s-avatar s-avatar__sm themed-avatar__sm">
+				                    <div class="s-avatar--letter">F</div><svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg></div>
+				                </div><span class="truncate ml2 pl4 grid--cell">Froogle Q&A</span></div>
+				              <h3><a href="/c/stack-overflow/questions/1131" class="question-hyperlink">What is it like to work in a Froogle office that is not in California? Do you still feel connected to HQ or do you feel disconnected?</a></h3>
+				              <div class="tags"><a href="/questions/tagged/so-for-teams?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'so-for-teams'" rel="tag">remote</a><a href="/questions/tagged/so-for-teams?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'so-for-teams'" rel="tag">froogle-careers</a> </div>
+				              <div class="started">
+				                <a href="/c/stack-overflow/questions/1131/?lastactivity" class="started-link">answered <span title="2018-08-21 16:50:28Z" class="relativetime">23 hours ago</span></a>
+				                <a href="/c/stack-overflow/users/21/">Elaine Eastwood</a><span class="mod-flair" title="moderator">♦</span> <span class="reputation-score" title="reputation score " dir="ltr">1,129</span>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="question-summary narrow">
+				            <div onclick="window.location.href='/c/stack-overflow/questions/1133'" class="cp">
+				              <div class="votes">
+				                <div class="mini-counts"><span title="3 votes">332</span></div>
+				                <div>votes</div>
+				              </div>
+				              <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+				                <div class="mini-counts"><span title="1 answer">2</span></div>
+				                <div>answers</div>
+				              </div>
+				              <div class="views">
+				                <div class="mini-counts"><span title="28 views">2.8k</span></div>
+				                <div>views</div>
+				              </div>
+				            </div>
+
+				            <div class="summary">
+				              <div class="grid mb8">
+				                <div class="grid--cell">
+				                  <div class="channel10002-avatar s-avatar s-avatar__sm themed-avatar__sm">
+				                    <div class="s-avatar--letter">F</div><svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg></div>
+				                </div><span class="truncate ml2 pl4 grid--cell">Froogle Q&A</span></div>
+				              <h3><a href="/c/stack-overflow/questions/1133" class="question-hyperlink">Does the company pay for relocation expenses?</a></h3>
+				              <div class="tags"><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">relocation</a> <a href="/questions/tagged/company-page?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'company-page'"
+				                  rel="tag">froogle-careers</a> </div>
+				              <div class="started">
+				                <a href="/c/stack-overflow/questions/1133/?lastactivity" class="started-link">modified <span title="2018-08-21 16:33:08Z" class="relativetime">23 hours ago</span></a>
+				                <a href="/c/stack-overflow/users/96/">Benjamin Button</a> <span class="reputation-score" title="reputation score " dir="ltr">295</span>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="question-summary narrow">
+				            <div onclick="window.location.href='/c/stack-overflow/questions/1132'" class="cp">
+				              <div class="votes">
+				                <div class="mini-counts"><span title="2 votes">208</span></div>
+				                <div>votes</div>
+				              </div>
+				              <div class="status answered-accepted" title="one of the answers was accepted as the correct answer">
+				                <div class="mini-counts"><span title="1 answer">3</span></div>
+				                <div>answers</div>
+				              </div>
+				              <div class="views">
+				                <div class="mini-counts"><span title="25 views">1.3k</span></div>
+				                <div>views</div>
+				              </div>
+				            </div>
+
+				            <div class="summary">
+				              <div class="grid mb8">
+				                <div class="grid--cell">
+				                  <div class="channel10002-avatar s-avatar s-avatar__sm themed-avatar__sm">
+				                    <div class="s-avatar--letter">F</div><svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg></div>
+				                </div><span class="truncate ml2 pl4 grid--cell">Froogle Q&A</span></div>
+				              <h3><a href="/c/stack-overflow/questions/1132" class="question-hyperlink">What technologies were used for the multiplayer connectivity on The Clever application?</a></h3>
+				              <div class="tags"><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">the-clever</a><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">froogle</a><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">tech-stack</a> </div>
+				              <div class="started">
+				                <a href="/c/stack-overflow/questions/1132/?lastactivity" class="started-link">answered <span title="2018-08-21 14:16:16Z" class="relativetime">23 hours ago</span></a>
+				                <a href="/c/stack-overflow/users/49/">Sara M. Rodriguez</a> <span class="reputation-score" title="reputation score " dir="ltr">1,381</span>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="question-summary narrow">
+				            <div onclick="window.location.href='/c/stack-overflow/questions/1130'" class="cp">
+				              <div class="votes">
+				                <div class="mini-counts"><span title="1 vote">154</span></div>
+				                <div>votes</div>
+				              </div>
+				              <div class="status answered">
+				                <div class="mini-counts"><span title="0 answers">3</span></div>
+				                <div>answers</div>
+				              </div>
+				              <div class="views">
+				                <div class="mini-counts"><span title="10 views">1.1k</span></div>
+				                <div>views</div>
+				              </div>
+				            </div>
+
+
+		                		            <div class="summary">
+				              <div class="grid mb8">
+				                <div class="grid--cell">
+				                  <div class="channel10002-avatar s-avatar s-avatar__sm themed-avatar__sm">
+				                    <div class="s-avatar--letter">F</div><svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg></div>
+				                </div><span class="truncate ml2 pl4 grid--cell">Froogle Q&A</span></div>
+				              <h3><a href="/c/stack-overflow/questions/1132" class="question-hyperlink">Why did you use AngularJS with Typescript and Webpack managing dependencies on The Clever?</a></h3>
+				              <div class="tags"><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">the-clever</a><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">froogle</a><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">tech-stack</a> </div>
+				              <div class="started">
+				                <a href="/c/stack-overflow/questions/1132/?lastactivity" class="started-link">answered <span title="2018-08-21 14:16:16Z" class="relativetime">23 hours ago</span></a>
+				                <a href="/c/stack-overflow/users/49/">Lucas Smith</a> <span class="reputation-score" title="reputation score " dir="ltr">321</span>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="question-summary narrow">
+				            <div onclick="window.location.href='/c/stack-overflow/questions/1130'" class="cp">
+				              <div class="votes">
+				                <div class="mini-counts"><span title="1 vote">118</span></div>
+				                <div>votes</div>
+				              </div>
+				              <div class="status unanswered">
+				                <div class="mini-counts"><span title="0 answers">0</span></div>
+				                <div>answers</div>
+				              </div>
+				              <div class="views">
+				                <div class="mini-counts"><span title="10 views">529</span></div>
+				                <div>views</div>
+				              </div>
+				            </div>
+
+
+
+		                		            <div class="summary">
+				              <div class="grid mb8">
+				                <div class="grid--cell">
+				                  <div class="channel10002-avatar s-avatar s-avatar__sm themed-avatar__sm">
+				                    <div class="s-avatar--letter">F</div><svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg></div>
+				                </div><span class="truncate ml2 pl4 grid--cell">Froogle Q&A</span></div>
+				              <h3><a href="/c/stack-overflow/questions/1132" class="question-hyperlink">What is the sabbatical policy at Froogle?</a></h3>
+				              <div class="tags"><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">entry-level</a><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">tech-stack</a> </div>
+				              <div class="started">
+				                <a href="/c/stack-overflow/questions/1132/?lastactivity" class="started-link">answered <span title="2018-08-21 14:16:16Z" class="relativetime">23 hours ago</span></a>
+				                <a href="/c/stack-overflow/users/49/">Beth Meyers</a> <span class="reputation-score" title="reputation score " dir="ltr">2,812</span>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="question-summary narrow">
+				            <div onclick="window.location.href='/c/stack-overflow/questions/1130'" class="cp">
+				              <div class="votes">
+				                <div class="mini-counts"><span title="1 vote">110</span></div>
+				                <div>votes</div>
+				              </div>
+				              <div class="status unanswered">
+				                <div class="mini-counts"><span title="0 answers">0</span></div>
+				                <div>answers</div>
+				              </div>
+				              <div class="views">
+				                <div class="mini-counts"><span title="10 views">321</span></div>
+				                <div>views</div>
+				              </div>
+				            </div>
+
+
+		                		            <div class="summary">
+				              <div class="grid mb8">
+				                <div class="grid--cell">
+				                  <div class="channel10002-avatar s-avatar s-avatar__sm themed-avatar__sm">
+				                    <div class="s-avatar--letter">F</div><svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg></div>
+				                </div><span class="truncate ml2 pl4 grid--cell">Froogle Q&A</span></div>
+				              <h3><a href="/c/stack-overflow/questions/1132" class="question-hyperlink">Does Froogle have a diversity and inclusion panel or team at the company?</a></h3>
+				              <div class="tags"><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">diversity-inclusion</a><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">froogle-culture</a> </div>
+				              <div class="started">
+				                <a href="/c/stack-overflow/questions/1132/?lastactivity" class="started-link">answered <span title="2018-08-21 14:16:16Z" class="relativetime">23 hours ago</span></a>
+				                <a href="/c/stack-overflow/users/49/">Noah Clos</a> <span class="reputation-score" title="reputation score " dir="ltr">143</span>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="question-summary narrow">
+				            <div onclick="window.location.href='/c/stack-overflow/questions/1130'" class="cp">
+				              <div class="votes">
+				                <div class="mini-counts"><span title="1 vote">89</span></div>
+				                <div>votes</div>
+				              </div>
+				              <div class="status answered-accepted">
+				                <div class="mini-counts"><span title="0 answers">1</span></div>
+				                <div>answer</div>
+				              </div>
+				              <div class="views">
+				                <div class="mini-counts"><span title="10 views">384</span></div>
+				                <div>views</div>
+				              </div>
+				            </div>
+
+
+		                		            <div class="summary">
+				              <div class="grid mb8">
+				                <div class="grid--cell">
+				                  <div class="channel10002-avatar s-avatar s-avatar__sm themed-avatar__sm">
+				                    <div class="s-avatar--letter">F</div><svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg></div>
+				                </div><span class="truncate ml2 pl4 grid--cell">Froogle Q&A</span></div>
+				              <h3><a href="/c/stack-overflow/questions/1132" class="question-hyperlink">How does Froogle Live use Unity 3D engine in their development process?</a></h3>
+				              <div class="tags"><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">froogle-live</a><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">froogle</a><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">tech-stack</a> </div>
+				              <div class="started">
+				                <a href="/c/stack-overflow/questions/1132/?lastactivity" class="started-link">answered <span title="2018-08-21 14:16:16Z" class="relativetime">23 hours ago</span></a>
+				                <a href="/c/stack-overflow/users/49/">Donna Choi</a> <span class="reputation-score" title="reputation score " dir="ltr">559</span>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="question-summary narrow">
+				            <div onclick="window.location.href='/c/stack-overflow/questions/1130'" class="cp">
+				              <div class="votes">
+				                <div class="mini-counts"><span title="1 vote">78</span></div>
+				                <div>votes</div>
+				              </div>
+				              <div class="status answered">
+				                <div class="mini-counts"><span title="0 answers">2</span></div>
+				                <div>answers</div>
+				              </div>
+				              <div class="views">
+				                <div class="mini-counts"><span title="10 views">592</span></div>
+				                <div>views</div>
+				              </div>
+				            </div>
+
+
+		                		            <div class="summary">
+				              <div class="grid mb8">
+				                <div class="grid--cell">
+				                  <div class="channel10002-avatar s-avatar s-avatar__sm themed-avatar__sm">
+				                    <div class="s-avatar--letter">F</div><svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg></div>
+				                </div><span class="truncate ml2 pl4 grid--cell">Froogle Q&A</span></div>
+				              <h3><a href="/c/stack-overflow/questions/1132" class="question-hyperlink">Is The Clever using any open source libraries?</a></h3>
+				              <div class="tags"><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">the-clever</a><a href="/questions/tagged/talent?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'talent'" rel="tag">tech-stack</a> </div>
+				              <div class="started">
+				                <a href="/c/stack-overflow/questions/1132/?lastactivity" class="started-link">answered <span title="2018-08-21 14:16:16Z" class="relativetime">23 hours ago</span></a>
+				                <a href="/c/stack-overflow/users/49/">Roger F. Denton</a> <span class="reputation-score" title="reputation score " dir="ltr">1,381</span>
+				              </div>
+				            </div>
+				          </div>
+				          <div class="question-summary narrow">
+				            <div onclick="window.location.href='/c/stack-overflow/questions/1130'" class="cp">
+				              <div class="votes">
+				                <div class="mini-counts"><span title="1 vote">5</span></div>
+				                <div>vote</div>
+				              </div>
+				              <div class="status unanswered">
+				                <div class="mini-counts"><span title="0 answers">0</span></div>
+				                <div>answers</div>
+				              </div>
+				              <div class="views">
+				                <div class="mini-counts"><span title="10 views">205</span></div>
+				                <div>views</div>
+				              </div>
+				            </div>
+
+
+
+
+
+
+
+				            <div class="summary">
+				              <div class="grid mb8">
+				                <div class="grid--cell">
+				                  <div class="channel10002-avatar s-avatar s-avatar__sm themed-avatar__sm">
+				                    <div class="s-avatar--letter">F</div><svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg></div>
+				                </div><span class="truncate ml2 pl4 grid--cell">Froogle Q&A</span></div>
+				              <h3><a href="/c/stack-overflow/questions/1130" class="question-hyperlink">Does Froogle publicly share results of their security audits?</a></h3>
+				              <div class="tags"><a href="/questions/tagged/so-for-teams?mixed=1" class="post-tag channel10002-tag" title="show questions tagged 'so-for-teams'" rel="tag">froogle-culture</a> </div>
+				              <div class="started">
+				                <a href="/c/stack-overflow/questions/1130" class="started-link">asked <span title="2018-08-21 12:19:20Z" class="relativetime">23 hours ago</span></a>
+				                <a href="/c/stack-overflow/users/96/">Hansen Chesterfield</a> <span class="reputation-score" title="reputation score " dir="ltr">295</span>
+				              </div>
+				            </div>
+
+				          </div>
+
+
+
+		              <h2 class="bottom-notice" data-loc="2">Looking for more? <a href="">Ask this company a question</a>, browse the <a href="/questions">complete list of questions</a>, or <a href="/tags">popular company tags</a>.</h2>
+				        </div>
+
+				      </div>
+				    </div>
+				    <!-- END LEFT COLUMN -->
+				    <!-- BEGIN RIGHT COLUMN -->
+				    <div id="right-column" class="grid--cell5 mt24">
+
+				      <div class="s-sidebarwidget">
+				        <div class="s-sidebarwidget--header grid">
+				          <span class="grid--cell fl1">Related Company Q&A's</span>
+				        </div>
+		            <div class="s-sidebarwidget--content">
+				          <img src="https://qph.fs.quoracdn.net/main-thumb-t-6336-50-U5I9r0ed9dkb424ZnMv4HE1pJlwrjRgc.jpeg" class="bar-sm mr8 job-sidebar-image">
+				          <div class="mt8">
+				            <strong>Walmart Software Development and Engineering</strong>
+				            <br> 452 questions
+				          </div>
+				        </div>
+		            <div class="s-sidebarwidget--content">
+				          <img src="https://qph.fs.quoracdn.net/main-thumb-t-56847-100-dB0hauOuVf3Rz9ZrNQH80aOGub4JqYfP.jpeg" class="bar-sm mr8 job-sidebar-image">
+				          <div class="mt8">
+				            <strong>Mapbox</strong>
+				            <br> 213 questions
+				          </div>
+				        </div>
+		            <div class="s-sidebarwidget--content">
+				          <img src="https://qph.fs.quoracdn.net/main-thumb-t-15500-50-wZpdLKOpIijg4EHl4j12ephB1vSCiQXt.jpeg" class="bar-sm mr8 job-sidebar-image">
+				          <div class="mt8">
+				            <strong>Open Street Map</strong>
+				            <br> 213 questions
+				          </div>
+				        </div>
+
+		            <div class="s-sidebarwidget--content">
+				          <img src="https://qph.fs.quoracdn.net/main-thumb-t-217936-100-bbuvtoqxkhhrjsbrujadvltepxifshuu.jpeg" class="bar-sm mr8 job-sidebar-image">
+				          <div class="mt8">
+				            <strong>CARTO (formerly CartoDB)</strong>
+				            <br> 127 questions
+				          </div>
+				        </div>
+
+		                        <div class="s-sidebarwidget--content">
+				          <img src="https://qph.fs.quoracdn.net/main-thumb-t-19272-100-epyvmjytibsjqntlwbicgietkftrtyfi.jpeg" class="bar-sm mr8 job-sidebar-image">
+				          <div class="mt8">
+				            <strong>OpenLayers</strong>
+				            <br> 65 questions
+				          </div>
+				        </div>
+				      </div>
+
+
+
+				      </div>
+				      <!-- END RIGHT COLUMN -->
+				    </div>
+				  </div>
+				  <!--//////////////////// END PAGE /////////////////////-->
+
+	</body>
+
+</html>

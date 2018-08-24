@@ -1,0 +1,2294 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://unpkg.com/@stackoverflow/stacks">
+		<link rel="stylesheet" href="styles/inherit.css">
+		<link rel="stylesheet" href="styles/dashboard.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	</head>
+	<body class="home-page unified-theme new-topbar">
+		<header class="top-bar js-top-bar _fixed top-bar__network">
+    		<div class="-container">
+        		<div class="-main">
+                    <a href="https://gh.stackoverflow.com/pages/Careers/DesignSprint" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})"><span class="-img _glyph">Stack Overflow</span></a>
+				</div>
+
+            	<form id="search" action="/search" method="get" class="searchbar js-searchbar " autocomplete="off" role="search">
+                    <div class="ps-relative">
+                        <input name="q" type="text" placeholder="Search questions&#44; jobs&#44; companies" value="" autocomplete="off" maxlength="240" class="f-input js-search-field ">
+                        <button type="submit" aria-label="Search questions&#44; jobs&#44; companies" class="s-btn s-btn__primary btn-topbar-primary js-search-submit"><svg aria-hidden="true" class="svg-icon mx0 iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></button>
+                    </div>
+            	</form>
+				<ol class="-secondary js-secondary-topbar-links drop-icons-responsively the-js-is-handling-responsiveness">
+	        		<li class="-item searchbar-trigger js-searchbar-trigger"><a href="#" class="-link"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></a></li>
+	                <li class="-item">
+		                <a href="/users/7439837/piper-lawson" class="my-profile js-gps-track" data-gps-track="profile_summary.click()">
+		                	<div class="gravatar-wrapper-24" title="Piper Lawson"><img src="https://lh6.googleusercontent.com/-8zNw0Ta8B4U/AAAAAAAAAAI/AAAAAAAAACU/6Lfp2mHwT6I/photo.jpg?sz=48" alt="" width="24" height="24" class="-avatar js-avatar-me"></div>
+		                    <div class="-rep js-header-rep" title="your reputation: 1">1</div>
+	                	</a>
+	            	</li>
+			        <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages">
+				            <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewBox="0 0 20 18"><path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z"></path></svg>
+				            <span class="indicator-badge js-unread-count _important" style="display: none;"></span>
+				        </a>
+				    </li>
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive">
+				            <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"></path></svg>
+				            <span class="indicator-badge js-unread-count _positive" style="display: none;"></span>
+				        </a>
+				    </li>
+
+				    <li class="-item review-button-item" data-remove-order="2">
+				        <a href="/review" class="-link js-gps-track js-review-button _danger-indicator" title="Review queues - help improve the site" data-gps-track="review_popup.click({ in_danger: true })">
+				            <svg aria-hidden="true" class="svg-icon iconReviewQueue" width="18" height="18" viewBox="0 0 18 18"><path d="M16 7.5l-5 4.97-1.79-1.77a1 1 0 0 0-1.4 0l-2.1 2.1a1 1 0 0 0 0 1.4L8.5 17H2a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v4.5zM12 7H2v2h10V7zm2-4H2v2h12V3zM2 11v2h3v-2H2zm16-.5l-7 7-4-4L8.5 12l2.5 2.5L16.5 9l1.5 1.5z"></path></svg>
+				        </a>
+
+				    </li>
+				    <li class="-item help-button-item" data-remove-order="1"><a href="#" class="-link js-help-button" title="Help Center and other resources">
+				        <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"></path></svg>
+				    </a></li>
+
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 1 Stack Exchange site">
+				            <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"></path></svg>
+				        </a>
+				    </li>
+				</ol>
+			</div>
+		</header>
+		<div class="container pb32">
+			<div class="w100 mt32">
+
+				<div class="grid mb16 gs24">
+					<div class="grid--cell3 s-card as-stretch bg-powder-800 bc-transparent pt64 hover" style="background-image: url('images/Illustration-Moon.svg'); background-position: center 10px; background-repeat: no-repeat; background-size: 100%;">
+						<p class="fs-category fc-white o70 mb4 mt64">Hot Question</p>
+			    		<h2 class="fs-subheading fc-white fw-normal mb2">Why is it faster to process a sorted array than an unsorted array?</h2>
+			    		<p class="fs-body2 fc-white o80 mb2">Join 1.2m developers and see what makes this question so popular.</p>
+					</div>
+					<div class="grid--cell6 s-card as-stretch bg-orange-500 ta-center bc-transparent py32 hover" style="background-image: url('images/pattern-dev.svg'); background-position: right -100px; background-repeat: no-repeat; background-size: 80%;">
+						<div class="grid fd-column gs16 ai-center">
+							<div class="grid--cell">
+								<div class="s-avatar s-avatar__xl" style="background-image: url('images/ama-joel.jpg'); background-size: cover;">
+								</div>
+							</div>
+							<div class="grid--cell fl1">
+								<p class="fs-body2 fc-white o70 mb0">Monday, Aug. 21 at 7pm</p>
+					    		<h2 class="fs-headline1 fc-white fw-normal mb8">Meet Joel Spolsky</h2>
+					    		<p class="fs-body3 fc-white o80 mb2 px32">Join us as Stack Overflow CEO answers any questions you may have about SO, development or adorable siberian huskies.</p>
+							</div>
+						</div>
+					</div>
+					<div class="grid--cell3 s-card as-stretch bc-transparent pt16 px16 hover" style="background-color: #8C60A7;">
+						<img src="images/collections-ico-education.svg" width="55%">
+						<p class="fs-category fc-white o70 mb4">Company collection</p>
+			    		<h2 class="fs-subheading fc-white fw-normal mb2">Education and Tuition benefits</h2>
+			    		<p class="fs-body2 fc-white o80 mb2">Browse 42 companies that help devs better their skills.</p>
+					</div>
+				</div>
+
+				<!--Based on your interests-->
+				<!--Headline-->
+
+				<div id="carouselInterests" class="carousel slide" data-ride="carousel" data-interval="false">
+					<div class="grid mb16 mt48">
+						<div class="grid--cell fl1">
+							<h2 class="mb0">Based on your interests</h2>
+						</div>
+						<div class="grid--cell grid ai-center">
+							<div class="grid--cell">
+								<a href="#carouselInterests" class="discover-nav p4" data-slide="prev"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" fill="3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+							<div class="grid--cell">
+								<a href="#carouselInterests" class="discover-nav p4" data-slide="next"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="#3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+						</div>
+					</div>
+					<!--end Headline-->
+					<!--Cards-->
+					<div class="carousel-inner">
+						<span class="carousel-item active">
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>6</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Differentiate between back button pressed and forward button pressed with History API</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">javascript</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>3</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Nothing gets focused when Electron window is set to frame: false</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">electron</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>-1</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>19</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Request Method: POST returning Status Code: 500</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">php</a>
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">http-status-code-500</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>15</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">form indicates that it was sent, but I receive nothing</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">php</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">forms</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>3</strong> votes</p>
+								        </div>
+								        <div class="grid--cell bg-green-400 bar-sm px4">
+								            <p class="fs-caption fc-white mb0"><strong>3</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>37</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">align items on stretch to the center of the parent div</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">flexbox</a>
+									</div>
+								</div>
+							</div>
+						</span>
+
+						<span class="carousel-item">
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>3</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Nothing gets focused when Electron window is set to frame: false</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">electron</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>-1</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>19</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Request Method: POST returning Status Code: 500</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">php</a>
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">http-status-code-500</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>3</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>3</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>37</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">align items on stretch to the center of the parent div</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">flexbox</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>15</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">form indicates that it was sent, but I receive nothing</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">php</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">forms</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>6</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Differentiate between back button pressed and forward button pressed with History API</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">javascript</a>
+									</div>
+								</div>
+							</div>
+						</span>
+					</div>
+				</div>
+				<!--end Cards-->
+
+				<!--Trending Team Questions-->
+				<!--Headline-->
+				<div id="carouselTeamquestions" class="carousel slide" data-ride="carousel" data-interval="false">
+					<div class="grid mb16 mt48">
+						<div class="grid--cell fl1">
+							<h2 class="mb0">Trending team questions</h2>
+						</div>
+						<div class="grid--cell grid ai-center">
+							<div class="grid--cell">
+								<a href="#carouselTeamquestions" class="discover-nav p4" data-slide="prev"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" fill="3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+							<div class="grid--cell">
+								<a href="#carouselTeamquestions" class="discover-nav p4" data-slide="next"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="#3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+						</div>
+					</div>
+					<!--end Headline-->
+					<!--Cards-->
+					<div class="carousel-inner">
+
+						<span class="carousel-item active">
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>10</strong> votes</p>
+								        </div>
+								        <div class="grid--cell bg-green-400 bar-sm px4">
+								            <p class="fs-caption fc-white mb0"><strong>2</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>79</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How do site settings work</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#" style="">core</a>
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">site-settings</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>1</strong> votes</p>
+								        </div>
+								        <div class="grid--cell bg-green-400 bar-sm px4">
+								            <p class="fs-caption fc-white mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>21</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How can we see who is currently out of the office?</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">working-at-cardinal</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell bg-green-400 bar-sm px4">
+								            <p class="fs-caption fc-white mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>15</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How do I set up 2FA for my work Miscrosoft account?</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">it</a>
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">microsoft</a>
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">2fa</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>23</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How do I book a hotel for work travel?</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">travel</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>1</strong> votes</p>
+								        </div>
+								        <div class="grid--cell bg-green-400 bar-sm px4">
+								            <p class="fs-caption fc-white mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>19</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Where do you go to see site metrics?</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">metrics</a>
+									</div>
+								</div>
+						    </div>
+						</span>
+
+
+						<span class="carousel-item">
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>15</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How do I set up 2FA for my work Miscrosoft account?</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">it</a>
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">microsoft</a>
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">2fa</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>23</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How do I book a hotel for work travel?</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">travel</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>1</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>19</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Where do you go to see site metrics?</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">metrics</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>10</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>2</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>79</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How do site settings work</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#" style="">core</a>
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">site-settings</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb12">
+										<div class="grid--cell">
+											<div class="channel10001 s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+												<svg aria-hidden="true" class="svg-icon native s-avatar--badge iconShieldXSm" width="9" height="10" viewBox="0 0 9 10"><g><path d="M0 1.84L4.5 0 9 1.84v3.17C9 7.53 6.3 10 4.5 10 2.7 10 0 7.53 0 5.01V1.84z" fill="#FFF"></path><path d="M4.5 1L1 2.5v2.51C1 7.34 3.65 9 4.5 9 5.34 9 8 7.34 8 5.01V2.5L4.5 1z" fill="#6A7E7C"></path><path d="M3.2 7l.78-1.48a.39.39 0 0 0-.15-.38C3.5 4.9 3.1 4.44 3.1 4c0-.71.47-1.23 1.39-1.23.91 0 1.4.52 1.4 1.23 0 .44-.38.9-.72 1.14a.4.4 0 0 0-.15.38L5.8 7H3.2z" fill="#FFF"></path></g></svg>
+											</div>
+										</div>
+										<span class="truncate ml2 pl4 grid--cell fc-black-600">Cardinal Consulting</span>
+									</div>
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>1</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>21</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How can we see who is currently out of the office?</a>
+								    <div class="grid gs4 mt16">
+										<a class="grid--cell s-tag bg-red-100 fc-red-600 bc-red-3" href="#">working-at-cardinal</a>
+									</div>
+								</div>
+						    </div>
+						</span>
+
+
+					</div>
+				</div>
+				<!--end Cards-->
+
+				<!--Unanswered Questions-->
+				<!--Headline-->
+				<div id="carouselUnansweredQuestions" class="carousel slide" data-ride="carousel" data-interval="false">
+
+					<div class="grid mb16 mt48">
+						<div class="grid--cell fl1">
+							<h2 class="mb0">Unanswered questions for your favorite tags</h2>
+						</div>
+						<div class="grid--cell grid ai-center">
+							<div class="grid--cell">
+								<a href="#carouselUnansweredQuestions" class="discover-nav p4" data-slide="prev"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" fill="3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+							<div class="grid--cell">
+								<a href="#carouselUnansweredQuestions" class="discover-nav p4" data-slide="next"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="#3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+						</div>
+					</div>
+					<!--end Headline-->
+					<!--Cards-->
+
+					<div class="carousel-inner">
+
+						<span class="carousel-item active">
+
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>21</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>606</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Why does bottom table cell that has centered-text get cut off when displayed as PDF in iOS?</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">ios</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">swift</a>
+										<a class="grid--cell s-tag" href="#">pdf</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>20</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>614</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Including HTML inside Jekyll tag</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">jekyll</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>17</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>705</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">IE 11 and FF 38 issue printing from iFrame over 1 page in length</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">internet-explorer</a>
+										<a class="grid--cell s-tag" href="#">firefox</a>
+										<a class="grid--cell s-tag" href="#">iframe</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>17</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>3</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>6k</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How to set filename for base64 rendered pdf using object tag?</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">html5</a>
+										<a class="grid--cell s-tag" href="#">pdf</a>
+										<a class="grid--cell s-tag" href="#">base64</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>15</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>279</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">R Shiny withProgress Indicator Within Fluid Container</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">r</a>
+										<a class="grid--cell s-tag" href="#">shiny</a>
+									</div>
+								</div>
+							</div>
+						</span>
+
+						<span class="carousel-item">
+
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>17</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>705</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">IE 11 and FF 38 issue printing from iFrame over 1 page in length</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">internet-explorer</a>
+										<a class="grid--cell s-tag" href="#">firefox</a>
+										<a class="grid--cell s-tag" href="#">iframe</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>17</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>3</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>6k</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">How to set filename for base64 rendered pdf using object tag?</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">html5</a>
+										<a class="grid--cell s-tag" href="#">pdf</a>
+										<a class="grid--cell s-tag" href="#">base64</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>21</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>606</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Why does bottom table cell that has centered-text get cut off when displayed as PDF in iOS?</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">ios</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">swift</a>
+										<a class="grid--cell s-tag" href="#">pdf</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>20</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-green-400 mb0"><strong>1</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>614</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">Including HTML inside Jekyll tag</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">jekyll</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid gs8 mb2">
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>15</strong> votes</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>0</strong> answer</p>
+								        </div>
+								        <div class="grid--cell">
+								            <p class="fs-caption fc-black-600 mb0"><strong>279</strong> views</p>
+								        </div>
+								    </div>
+								    <a href="#" class="fs-body3 fw-normal s-link">R Shiny withProgress Indicator Within Fluid Container</a>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">r</a>
+										<a class="grid--cell s-tag" href="#">shiny</a>
+									</div>
+								</div>
+							</div>
+						</span>
+					</div>
+
+
+				</div>
+
+				<!--end Cards-->
+
+				<!--Upcoming AMAs-->
+				<!--Headline-->
+
+				<div id="carouselAMAs" class="carousel slide" data-ride="carousel" data-interval="false">
+
+
+
+					<div class="grid mb16 mt48">
+						<div class="grid--cell fl1">
+							<h2 class="mb0">Upcoming AMAs</h2>
+						</div>
+						<div class="grid--cell grid ai-center">
+							<div class="grid--cell">
+								<a href="#carouselAMAs" class="discover-nav p4" data-slide="prev"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" fill="3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+							<div class="grid--cell">
+								<a href="#carouselAMAs" class="discover-nav p4" data-slide="next"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="#3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+						</div>
+					</div>
+					<!--end Headline-->
+					<!--Cards-->
+
+					<div class="carousel-inner">
+
+						<span class="carousel-item active">
+
+							<div class="grid ff-row-wrap grid__allcells4 gs24 gsx">
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/ama-joel.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Monday, Aug. 21 at 7pm</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Joel Spolsky</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">CEO at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('images/logo-so.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">Stack Overflow</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-1.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-2.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-4.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">150 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-2.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Thursday, Aug. 25 at 1pm</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Jonas Dixon</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center ff-row-wrap">
+								    			<div class="grid--cell">Front-end Dev at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bitorange.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">BitOrange</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-4.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-5.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-7.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-9.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">25 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-1.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Sunday, Aug. 27 at 11a</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Kashif Maddox</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">Recruiter at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('images/logo_udata.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">UData</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-4.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-5.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-6.png'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-9.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-1.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">81 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Wednesday, Aug. 30 at 12pm</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Gail Porat</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">Engineering Manager at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750"><a href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company">Froogle</a></span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-5.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-7.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">207 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-4.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Wednesday, Sep. 6 at 9am</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Catrin Shaffer</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">Lead SysAdmin at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('images/logo_comeet.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">Comeet</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-11.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-12.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-13.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-14.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">56 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-5.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Friday, Sep. 15 at 11pm</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Ocean Wilkins</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">CEO at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('images/logo_kidigo.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">KidiGo</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-17.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-18.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">84 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</span>
+
+						<span class="carousel-item">
+
+							<div class="grid ff-row-wrap grid__allcells4 gs24 gsx">
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-5.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Friday, Sep. 15 at 11pm</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Ocean Wilkins</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">CEO at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('images/logo_kidigo.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">KidiGo</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-17.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-18.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">84 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/ama-joel.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Monday, Aug. 21 at 7pm</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Joel Spolsky</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">CEO at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('images/logo-so.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">Stack Overflow</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-1.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-2.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-4.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">150 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Wednesday, Aug. 30 at 12pm</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Gail Porat</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">Engineering Manager at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750"><a href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company">Froogle</a></span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-5.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-7.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">207 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-4.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Wednesday, Sep. 6 at 9am</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Catrin Shaffer</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">Lead SysAdmin at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('images/logo_comeet.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">Comeet</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-11.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-12.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-13.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-14.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">56 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-2.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Thursday, Aug. 25 at 1pm</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Jonas Dixon</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center ff-row-wrap">
+								    			<div class="grid--cell">Front-end Dev at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm themed-avatar__sm" style="background-image: url('images/logo_bitorange.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">BitOrange</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-4.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-5.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-7.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-9.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">25 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch mb16">
+									<div class="grid gs16 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-1.jpg'); background-size: cover;">
+												<div ></div>
+											</div>
+										</div>
+										<div class="grid--cell fl1">
+											<p class="fs-body1 fc-black-600 mb2">Sunday, Aug. 27 at 11a</p>
+								    		<h2 class="fs-body3 fw-normal mb0"><a href="event" class="s-link">Kashif Maddox</a></h2>
+								    		<div class="grid fs-body2 gs8 fc-black-600 ai-center">
+								    			<div class="grid--cell">Recruiter at</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm bg-green-500 themed-avatar__sm" style="background-image: url('images/logo_udata.png'); background-size: cover;">
+													</div>
+												</div>
+												<span class="truncate ml2 grid--cell fc-black-750">UData</span>
+											</div>
+										    <div class="grid gs4 mt16 mb4 ai-center">
+										    	<div class="grid--cell pr4">
+										    		<a href="#" class="s-btn s-btn__outlined s-btn__xs">I'm interested</a>
+										    	</div>
+												<div class="grid--cell">
+													<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-4.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-5.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-6.png'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-9.jpg'); background-size: cover;">
+													</div>
+													<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-1.jpg'); background-size: cover;">
+													</div>
+												</div>
+												<div class="grid--cell">
+													<p class="fs-body1 fc-black-600">81 interested</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</span>
+
+					</div>
+
+
+
+				</div>
+
+				<!--end Cards-->
+
+				<!--Featured Collections-->
+				<!--Headline-->
+
+
+				<div class="grid mb16 mt48">
+					<div class="grid--cell fl1">
+						<h2 class="mb0">Featured company collections</h2>
+					</div>
+				</div>
+				<!--end Headline-->
+				<!--Cards-->
+				<div class="grid grid__fl1 grid__allcells4 gs24">
+					<a href="#" class="d-block grid--cell s-card as-stretch bg-blue-500 ta-center bc-transparent">
+						<img src="images/collections-ico-engineering.svg" width="40%">
+						<h3 class="fs-subheading fw-normal fc-white mb2 mt16">Great engineering culture</h3>
+						<p class="fs-body1 fc-white mb8 o70">212 jobs with 116 companies</p>
+					</a>
+					<a href="#" class="d-block grid--cell s-card as-stretch ta-center bc-transparent" style="background-color: #8C60A7;">
+						<img src="images/collections-ico-fitness.svg" width="40%">
+						<h3 class="fs-subheading fw-normal fc-white mb2 mt16">Gym and fitness perks</h3>
+						<p class="fs-body1 fc-white mb8 o70">212 jobs with 116 companies</p>
+					</a>
+					<a href="#" class="d-block grid--cell s-card as-stretch bg-orange-500 ta-center bc-transparent">
+						<img src="images/collections-ico-vacation.svg" width="40%">
+						<h3 class="fs-subheading fw-normal fc-white mb2 mt16">10+ days of paid vacation</h3>
+						<p class="fs-body1 fc-white mb8 o70">212 jobs with 116 companies</p>
+					</a>
+					<a href="#" class="d-block grid--cell s-card as-stretch bg-green-500 ta-center bc-transparent">
+						<img src="images/collections-ico-livework.svg" width="40%">
+						<h3 class="fs-subheading fw-normal fc-white mb2 mt16">Live & work anywhere</h3>
+						<p class="fs-body1 fc-white mb8 o70">212 jobs with 116 companies</p>
+					</a>
+				</div>
+
+
+				<!--end Cards-->
+
+				<!--Remote Companies-->
+				<!--Headline-->
+
+				<div id="carouselCompanies" class="carousel slide" data-ride="carousel" data-interval="false">
+
+
+					<div class="grid mb16 mt48">
+						<div class="grid--cell fl1">
+							<h2 class="mb0">Companies near you</h2>
+						</div>
+						<div class="grid--cell grid ai-center">
+							<div class="grid--cell">
+								<a href="#carouselCompanies" class="discover-nav p4" data-slide="prev"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" fill="3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+							<div class="grid--cell">
+								<a href="#carouselCompanies" class="discover-nav p4" data-slide="next"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="#3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+						</div>
+					</div>
+					<!--end Headline-->
+					<!--Cards-->
+
+					<div class="carousel-inner">
+
+						<span class="carousel-item active">
+
+
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__md" style="background-image: url('https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1'); background-size: cover; background-position: center;">
+											</div>
+										</div>
+									</div>
+									<h2 class="fs-body3 fw-normal mb0"><a href="company" class="s-link">Froogle</a></h2>
+								    <p class="fs-body2 fc-black-600 mb4">Computer Software, Enterprise Software</p>
+								    <div class="grid gs4 mb16  ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">scala</a>
+										<a class="grid--cell s-tag" href="#">unity</a>
+										<a class="grid--cell s-tag" href="#">mongodb</a>
+										<a class="grid--cell s-tag bg-blue-700 fc-white" href="#">5 jobs</a>
+									</div>
+								    <p class="fs-body2 fc-black-750">Froogle provides an integrated suite of shopping, logistics and retail solutions in the USA & Canada regiona...</p>
+									<div class="grid gs8 mt8">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-17.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-18.jpg'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-body1 fc-black-600">213 followers</p>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_apetit.png'); background-size: cover; background-position: center;">
+											</div>
+										</div>
+									</div>
+									<h2 class="fs-body3 fw-normal mb0"><a href="company" class="s-link">Apetit</a></h2>
+								    <p class="fs-body2 fc-black-600 mb4">Digital Marketing, Email Marketing, SMS Marketing</p>
+								    <div class="grid gs4 mb16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">php</a>
+										<a class="grid--cell s-tag" href="#">linux</a>
+										<a class="grid--cell s-tag bg-blue-700 fc-white" href="#">1 job</a>
+									</div>
+								    <p class="fs-body2 fc-black-750">We built scalable websites and applications to drive the collection and delivery of leads. We also build B2B....</p>
+									<div class="grid gs8 mt8">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-17.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-18.jpg'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-body1 fc-black-600">165 followers</p>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_ideacomm.png'); background-size: cover; background-position: center;">
+											</div>
+										</div>
+									</div>
+									<h2 class="fs-body3 fw-normal mb0"><a href="company" class="s-link">IdeaComm</a></h2>
+								    <p class="fs-body2 fc-black-600 mb4">Consulting, Recruiting</p>
+								    <div class="grid gs4 mb16">
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">mysql</a>
+									</div>
+								    <p class="fs-body2 fc-black-750">IdeaComm was launched to help Michigan startups and small businesses access high quality, yet affordable talent...</p>
+									<div class="grid gs8 mt8 ff-row-wrap">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-12.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-9.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-2.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-body1 fc-black-600">482 followers</p>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_avevo.png'); background-size: cover; background-position: center;">
+											</div>
+										</div>
+									</div>
+									<h2 class="fs-body3 fw-normal mb0"><a href="company" class="s-link">Avevo</a></h2>
+								    <p class="fs-body2 fc-black-750 mb4">Consulting, Recruiting</p>
+								    <div class="grid gs4 mb16">
+										<a class="grid--cell s-tag" href="#">java</a>
+										<a class="grid--cell s-tag" href="#">scala</a>
+										<a class="grid--cell s-tag" href="#">perl</a>
+										<a class="grid--cell s-tag bg-blue-700 fc-white" href="#">11 jobs</a>
+									</div>
+								    <p class="fs-body2 fc-black-750">Our in-house technology team allows us to give customers and brand partners the best possible experience across content...</p>
+									<div class="grid gs8 mt8">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-7.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-19.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-2.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-12.jpg'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-body1 fc-black-600">46 followers</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</span>
+
+						<span class="carousel-item">
+
+
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_ideacomm.png'); background-size: cover; background-position: center;">
+											</div>
+										</div>
+									</div>
+									<h2 class="fs-body3 fw-normal mb0"><a href="company" class="s-link">IdeaComm</a></h2>
+								    <p class="fs-body2 fc-black-600 mb4">Consulting, Recruiting</p>
+								    <div class="grid gs4 mb16">
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">mysql</a>
+									</div>
+								    <p class="fs-body2 fc-black-750">IdeaComm was launched to help Michigan startups and small businesses access high quality, yet affordable talent...</p>
+									<div class="grid gs8 mt8 ff-row-wrap">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-12.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-9.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-2.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-body1 fc-black-600">482 followers</p>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_avevo.png'); background-size: cover; background-position: center;">
+											</div>
+										</div>
+									</div>
+									<h2 class="fs-body3 fw-normal mb0"><a href="company" class="s-link">Avevo</a></h2>
+								    <p class="fs-body2 fc-black-750 mb4">Consulting, Recruiting</p>
+								    <div class="grid gs4 mb16">
+										<a class="grid--cell s-tag" href="#">java</a>
+										<a class="grid--cell s-tag" href="#">scala</a>
+										<a class="grid--cell s-tag" href="#">perl</a>
+										<a class="grid--cell s-tag bg-blue-700 fc-white" href="#">11 jobs</a>
+									</div>
+								    <p class="fs-body2 fc-black-750">Our in-house technology team allows us to give customers and brand partners the best possible experience across content...</p>
+									<div class="grid gs8 mt8">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-7.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-19.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-2.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-12.jpg'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-body1 fc-black-600">46 followers</p>
+										</div>
+									</div>
+								</div>
+																<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_mobigym.png'); background-size: cover; background-position: center;">
+											</div>
+										</div>
+									</div>
+									<h2 class="fs-body3 fw-normal mb0"><a href="company" class="s-link">MobiGym</a></h2>
+								    <p class="fs-body2 fc-black-600 mb4">Computer Software, Enterprise Software</p>
+								    <div class="grid gs4 mb16  ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">scala</a>
+										<a class="grid--cell s-tag" href="#">akka</a>
+										<a class="grid--cell s-tag" href="#">mongodb</a>
+										<a class="grid--cell s-tag bg-blue-700 fc-white" href="#">1 job</a>
+									</div>
+								    <p class="fs-body2 fc-black-750">MobiGym offers a sales prospecting automation platform to increase fitness productivity. Currently we provide a...</p>
+									<div class="grid gs8 mt8">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-17.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-18.jpg'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-body1 fc-black-600">213 followers</p>
+										</div>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8 ai-center">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_apetit.png'); background-size: cover; background-position: center;">
+											</div>
+										</div>
+									</div>
+									<h2 class="fs-body3 fw-normal mb0"><a href="company" class="s-link">Apetit</a></h2>
+								    <p class="fs-body2 fc-black-600 mb4">Digital Marketing, Email Marketing, SMS Marketing</p>
+								    <div class="grid gs4 mb16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">php</a>
+										<a class="grid--cell s-tag" href="#">linux</a>
+										<a class="grid--cell s-tag bg-blue-700 fc-white" href="#">1 job</a>
+									</div>
+								    <p class="fs-body2 fc-black-750">We built scalable websites and applications to drive the collection and delivery of leads. We also build B2B....</p>
+									<div class="grid gs8 mt8">
+										<div class="grid--cell">
+											<div class="s-avatar s-avatar__sm ba bc-white box-content" style="background-image: url('images/avatar-15.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-17.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-3.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-8.jpg'); background-size: cover;">
+											</div>
+											<div class="s-avatar s-avatar__sm mln8 ba bc-white box-content" style="background-image: url('images/avatar-18.jpg'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-body1 fc-black-600">165 followers</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</span>
+					</div>
+
+				</div>
+				<!--end Cards-->
+
+				<!--Recommended jobs for you-->
+				<!--Headline-->
+
+				<div id="carouselRecommendedJobs" class="carousel slide" data-ride="carousel" data-interval="false">
+
+
+					<div class="grid mb16 mt48">
+						<div class="grid--cell fl1">
+							<h2 class="mb0">Recommended Jobs for you</h2>
+						</div>
+						<div class="grid--cell grid ai-center">
+							<div class="grid--cell">
+								<a href="#carouselRecommendedJobs" class="discover-nav p4" data-slide="prev"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" fill="3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+							<div class="grid--cell">
+								<a href="#carouselRecommendedJobs" class="discover-nav p4" data-slide="next"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="#3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+						</div>
+					</div>
+					<!--end Headline-->
+					<!--Cards-->
+
+
+					<div class="carousel-inner">
+
+						<span class="carousel-item active">
+
+
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_kidigo.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">4w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Javascript Developer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Kidigo</span> in Chicago, IL</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-green-500">Equity</div>
+								    	<div class="grid--cell fc-powder-400">Paid relocation</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">angular</a>
+										<a class="grid--cell s-tag" href="#">angularjs</a>
+										<a class="grid--cell s-tag" href="#">angular6</a>
+										<a class="grid--cell s-tag" href="#">angular5</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_boardgameshot.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">JavaScript Web Development Mentor</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Boardgame Shot</span> in Chicago, IL</p>
+
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">reactjs</a>
+										<a class="grid--cell s-tag" href="#">node.js</a>
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">redux</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_ecosource.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">4w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Senior JavaScript Developer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Ecosource</span> in Rosemont, IL</p>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">angularjs</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_TT.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2d ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Senior JavaScript Guru</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">TT</span> in Naperville, IL</p>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">agile</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_leafbox.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Frontend JavaScript Engineer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Leafbox</span> in Chicago, IL</p>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">angular</a>
+										<a class="grid--cell s-tag" href="#">typescript</a>
+									</div>
+								</div>
+							</div>
+
+						</span>
+
+
+						<span class="carousel-item">
+
+
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+																<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_ecosource.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">4w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Senior JavaScript Developer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Ecosource</span> in Rosemont, IL</p>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">angularjs</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_kidigo.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">4w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Javascript Developer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Kidigo</span> in Chicago, IL</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-green-500">Equity</div>
+								    	<div class="grid--cell fc-powder-400">Paid relocation</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">angular</a>
+										<a class="grid--cell s-tag" href="#">angularjs</a>
+										<a class="grid--cell s-tag" href="#">angular6</a>
+										<a class="grid--cell s-tag" href="#">angular5</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_boardgameshot.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">JavaScript Web Development Mentor</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Boardgame Shot</span> in Chicago, IL</p>
+
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">reactjs</a>
+										<a class="grid--cell s-tag" href="#">node.js</a>
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">redux</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+									</div>
+								</div>
+
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_TT.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2d ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Senior JavaScript Guru</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">TT</span> in Naperville, IL</p>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">agile</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_leafbox.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Frontend JavaScript Engineer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Leafbox</span> in Chicago, IL</p>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">jquery</a>
+										<a class="grid--cell s-tag" href="#">angular</a>
+										<a class="grid--cell s-tag" href="#">typescript</a>
+									</div>
+								</div>
+							</div>
+
+						</span>
+
+					</div>
+
+				</div>
+				<!--end Cards-->
+
+				<!--Jobs with low number of applications-->
+				<!--Headline-->
+
+				<div id="carouselFirstApply" class="carousel slide" data-ride="carousel" data-interval="false">
+
+					<div class="grid mb16 mt48">
+						<div class="grid--cell fl1">
+							<h2 class="mb0">Be the first to apply to these jobs</h2>
+						</div>
+						<div class="grid--cell grid ai-center">
+							<div class="grid--cell">
+								<a href="#carouselFirstApply" class="discover-nav p4" data-slide="prev"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" fill="3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+							<div class="grid--cell">
+								<a href="#carouselFirstApply" class="discover-nav p4" data-slide="next"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewbox="0 0 24 24"><path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" fill="#3C3F44"/><path fill="none" d="M0 0h24v24H0V0z"/></svg></a>
+							</div>
+						</div>
+					</div>
+					<!--end Headline-->
+					<!--Cards-->
+
+					<div class="carousel-inner">
+
+						<span class="carousel-item active">
+
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_breadfast.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Senior JavaScript Engineer (Frontend)</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Breadfast</span> in Berlin, Germany</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-powder-400">Paid relocation</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">apache</a>
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">apache-flink</a>
+										<a class="grid--cell s-tag" href="#">angularjs</a>
+										<a class="grid--cell s-tag" href="#">react-redux</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_udata.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Principal Javascript Developer (m/f)</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">UData</span> in Berlin, Germany</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-red-400">Visa sponsor</div>
+								    	<div class="grid--cell fc-powder-400">Paid relocation</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">reactjs</a>
+										<a class="grid--cell s-tag" href="#">redux</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">3d ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">JavaScript Engineer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Cardinal Consulting</span> in Glendale, CA</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-powder-400">Paid relocation</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">reactjs</a>
+										<a class="grid--cell s-tag" href="#">angularjs</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_cloudmusic.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">3w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Software Engineer, Front End (JavaScript/Web Apps) Boston</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Cloud Music</span> in Boston, MA</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-yellow-700">Remote</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">single-page-application</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_comeet.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">1w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Javascript Developer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Comeet</span> in Stockholm, Sweden</p>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">webpack</a>
+										<a class="grid--cell s-tag" href="#">user-experience</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+									</div>
+								</div>
+							</div>
+						</span>
+
+						<span class="carousel-item">
+
+							<div class="grid grid__fl1 grid__allcells4 gs24">
+																<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_bird.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">3d ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">JavaScript Engineer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Cardinal Consulting</span> in Glendale, CA</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-powder-400">Paid relocation</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">reactjs</a>
+										<a class="grid--cell s-tag" href="#">angularjs</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_breadfast.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Senior JavaScript Engineer (Frontend)</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Breadfast</span> in Berlin, Germany</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-powder-400">Paid relocation</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">apache</a>
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">apache-flink</a>
+										<a class="grid--cell s-tag" href="#">angularjs</a>
+										<a class="grid--cell s-tag" href="#">react-redux</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_udata.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">2w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Principal Javascript Developer (m/f)</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">UData</span> in Berlin, Germany</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-red-400">Visa sponsor</div>
+								    	<div class="grid--cell fc-powder-400">Paid relocation</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">reactjs</a>
+										<a class="grid--cell s-tag" href="#">redux</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+									</div>
+								</div>
+
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_cloudmusic.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">3w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Software Engineer, Front End (JavaScript/Web Apps) Boston</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Cloud Music</span> in Boston, MA</p>
+								    <div class="grid gs8 mt2">
+								    	<div class="grid--cell fc-yellow-700">Remote</div>
+								    </div>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">single-page-application</a>
+									</div>
+								</div>
+								<div class="grid--cell s-card as-stretch">
+									<div class="grid mb8">
+										<div class="grid--cell fl1">
+											<div class="s-avatar s-avatar__md" style="background-image: url('images/logo_comeet.png'); background-size: cover;">
+											</div>
+										</div>
+										<div class="grid--cell">
+											<p class="fs-caption fc-black-600">1w ago</p>
+										</div>
+									</div>
+								    <h2 class="fs-body3 fw-normal mb0"><a href="#" class="s-link">Javascript Developer</a></h2>
+								    <p class="fs-body2 fc-black-600"><span class="fc-black-750">Comeet</span> in Stockholm, Sweden</p>
+								    <div class="grid gs4 mt16 ff-row-wrap">
+										<a class="grid--cell s-tag" href="#">javascript</a>
+										<a class="grid--cell s-tag" href="#">css</a>
+										<a class="grid--cell s-tag" href="#">webpack</a>
+										<a class="grid--cell s-tag" href="#">user-experience</a>
+										<a class="grid--cell s-tag" href="#">html</a>
+									</div>
+								</div>
+							</div>
+						</span>
+
+					</div>
+
+				</div>
+				<!--end Cards-->
+
+				<!--Popular topics-->
+				<!--Headline-->
+				<div class="grid mb16 mt48">
+					<div class="grid--cell fl1">
+						<h2 class="mb0">Trending tags</h2>
+					</div>
+				</div>
+				<!--end Headline-->
+				<!--Cards-->
+				<div class="grid grid__fl1 grid__allcells4 gs24">
+					<div class="grid--cell s-card as-stretch ta-center">
+						<img src="images/trending-js.svg" width="60px" class="mt24">
+						<h3 class="fs-subheading fw-normal mb2 mt16"><a href="#" class="s-link">Javascript</a></h3>
+						<p class="fs-body2 fc-black-600 mb12">JavaScript is a high-level, dynamic, multi-paradigm, weakly-typed language used for both client-side and server-side scripting.</p>
+					</div>
+					<div class="grid--cell s-card as-stretch ta-center">
+						<img src="images/trending-nodejs.svg" width="100px" class="mt24">
+						<h3 class="fs-subheading fw-normal mb2 mt16"><a href="#" class="s-link">Node.js</a></h3>
+						<p class="fs-body2 fc-black-600 mb12">Node.js is an event-based, non-blocking, asynchronous I/O framework that uses Google's V8 JavaScript engine and libuv library.</p>
+					</div>
+					<div class="grid--cell s-card as-stretch ta-center">
+						<img src="images/trending-ruby.svg" width="60px" class="mt24">
+						<h3 class="fs-subheading fw-normal mb2 mt16"><a href="#" class="s-link">Ruby</a></h3>
+						<p class="fs-body2 fc-black-600 mb12">Ruby is a multi-platform open-source, dynamic object-oriented interpreted language, created by Yukihiro Matsumoto (Matz) in 1995.</p>
+					</div>
+					<div class="grid--cell s-card as-stretch ta-center">
+						<img src="images/trending-typescript.svg" width="60px" class="mt24">
+						<h3 class="fs-subheading fw-normal mb2 mt16"><a href="#" class="s-link">Typescript</a></h3>
+						<p class="fs-body2 fc-black-600 mb12">TypeScript is a typed superset of JavaScript created by Microsoft that adds optional types, classes, async/await, and many other features, and compiles to plain JavaScript.</p>
+					</div>
+				</div>
+				<!--end Cards-->
+
+			</div>
+		</div>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+	</body>
+
+</html>

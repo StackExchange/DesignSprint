@@ -1,0 +1,342 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://unpkg.com/@stackoverflow/stacks">
+		<link rel="stylesheet" href="styles/inherit.css">
+		<link rel="stylesheet" href="styles/company.css">
+	</head>
+
+	<body class="home-page unified-theme new-topbar">
+		<header class="top-bar js-top-bar _fixed top-bar__network">
+    		<div class="-container">
+        		<div class="-main">
+                    <a href="https://gh.stackoverflow.com/pages/Careers/DesignSprint" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})"><span class="-img _glyph">Stack Overflow</span></a>
+				</div>
+
+            	<form id="search" action="/search" method="get" class="searchbar js-searchbar " autocomplete="off" role="search">
+                    <div class="ps-relative">
+                        <input name="q" type="text" placeholder="Search questions&#44; jobs&#44; companies" value="" autocomplete="off" maxlength="240" class="f-input js-search-field ">
+                        <button type="submit" aria-label="Search questions&#44; jobs&#44; companies" class="s-btn s-btn__primary btn-topbar-primary js-search-submit"><svg aria-hidden="true" class="svg-icon mx0 iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></button>
+                    </div>
+            	</form>
+				<ol class="-secondary js-secondary-topbar-links drop-icons-responsively the-js-is-handling-responsiveness">
+	        		<li class="-item searchbar-trigger js-searchbar-trigger"><a href="#" class="-link"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></a></li>
+	                <li class="-item">
+		                <a href="/users/7439837/piper-lawson" class="my-profile js-gps-track" data-gps-track="profile_summary.click()">
+		                	<div class="gravatar-wrapper-24" title="Piper Lawson"><img src="https://lh6.googleusercontent.com/-8zNw0Ta8B4U/AAAAAAAAAAI/AAAAAAAAACU/6Lfp2mHwT6I/photo.jpg?sz=48" alt="" width="24" height="24" class="-avatar js-avatar-me"></div>
+		                    <div class="-rep js-header-rep" title="your reputation: 1">1</div>
+	                	</a>
+	            	</li>
+			        <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages">
+				            <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewBox="0 0 20 18"><path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z"></path></svg>
+				            <span class="indicator-badge js-unread-count _important" style="display: none;"></span>
+				        </a>
+				    </li>
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive">
+				            <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"></path></svg>
+				            <span class="indicator-badge js-unread-count _positive" style="display: none;"></span>
+				        </a>
+				    </li>
+
+				    <li class="-item review-button-item" data-remove-order="2">
+				        <a href="/review" class="-link js-gps-track js-review-button _danger-indicator" title="Review queues - help improve the site" data-gps-track="review_popup.click({ in_danger: true })">
+				            <svg aria-hidden="true" class="svg-icon iconReviewQueue" width="18" height="18" viewBox="0 0 18 18"><path d="M16 7.5l-5 4.97-1.79-1.77a1 1 0 0 0-1.4 0l-2.1 2.1a1 1 0 0 0 0 1.4L8.5 17H2a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v4.5zM12 7H2v2h10V7zm2-4H2v2h12V3zM2 11v2h3v-2H2zm16-.5l-7 7-4-4L8.5 12l2.5 2.5L16.5 9l1.5 1.5z"></path></svg>
+				        </a>
+
+				    </li>
+				    <li class="-item help-button-item" data-remove-order="1"><a href="#" class="-link js-help-button" title="Help Center and other resources">
+				        <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"></path></svg>
+				    </a></li>
+
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 1 Stack Exchange site">
+				            <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"></path></svg>
+				        </a>
+				    </li>
+				</ol>
+			</div>
+		</header>
+
+		<!--//////////////////// BEGIN PAGE /////////////////////-->
+
+		<div class="w100 mx-auto mt64 mb64 fc-medium" style="max-width:1264px; padding-left:15px; padding-right:15px;">
+		  <div id="header-content" class="grid gs32 ai-center md:fd-column">
+		    <img class="wmx1 grid--cell ba bc-black-3 bg-white" role="presentation" alt="" src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" id="gh-logo">
+		    <div id="company-name-tagline" class="grid--cell pt16 md:fd-column md:ta-center md:pt0 md:mb0">
+		      <h1 class="fs-display1 lh-xs fw-normal mb8 md:pt16">Froogle</h1>
+		      <p class="fs-title fc-light lh-md">Our vision for commerce is one that is enabled by people, powered by technology, and open to everyone.</p>
+		    </div>
+		  </div>
+
+			<div id="navigation-bar" class="grid by py16 bc-black-3 mb24 mt12">
+				<div id="nav-items" class="grid--cell byw4 mr-auto">
+										<a class="s-btn s-btn__md grid--cell" href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company">Home</a>
+										<a class="s-btn s-btn__md grid--cell" href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company-questions">Questions & Answers</a>
+					<a class="s-btn s-btn__md grid--cell" href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company-review">Reviews</a>
+					<button class="s-btn s-btn__md" type="button">Jobs</button>
+					<button class="s-btn s-btn__md" type="button">About</button>
+				</div>
+				<div class="grid--cell ml-auto">
+					<button class="s-btn s-btn__primary" type="button">Follow</button>
+					<button class="s-btn s-btn__primary" type="button">Ask a Question</button>
+					<button class="s-btn s-btn__outlined" type="button">Upvote Company</button>
+					<button class="s-btn s-btn__outlined" type="button">Downvote Company</button>
+					<button class="s-btn s-btn__outlined" type="button">&bull; &bull; &bull;</svg>
+											</button>
+				</div>
+			</div>
+		  <!-- BEGIN PAGE CONTENT -->
+		  <div class="grid gs32 gsx">
+
+		    <!-- BEGIN LEFT COLUMN -->
+		    <div class="grid--cell7">
+
+		      <div class="fs-body2 mt24">
+		        <h2 class="fs-headline1 fw-normal">Company Posts</h2>
+		        <div id="Posted Link Sample" class="s-card bs-sm mb24 p24">
+
+		          <h3>Froogle developers Launchpad team introduces "The Clever", sharing applied-Machine Learning best practices
+		          </h3>
+		          <p>The Clever is Froogle Developers Launchpad's new resource for sharing applied-Machine Learning (ML) content to help startups innovate and thrive.</p>
+		          <p><a>digest.froogle.com/2018/0... <svg aria-hidden="true" class="mb2 svg-icon iconShareSm native" width="14" height="14" viewBox="0 0 14 14"><path fill="#0077CC" d="M11 4.5L6.5 9 5 7.5 9.5 3H7V1h6v6h-2V4.5zM5 1v2H3v8h8V9h2v2a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h2z"></path></svg></a></p>
+		          <p class="fs-caption fc-light fw-bold mb4">321 votes &bull; 1.4k views</p>
+		          <p class="fs-caption fc-black-300 fs-italic"><svg aria-hidden="true" class="svg-icon iconLogoGlyphXxs native" width="18" height="18" viewBox="0 0 18 18"><g><path fill="#9EA3A9" d="M13 15v-3h1v4H3v-4h1v3z"></path><path d="M10.93 2.06l4.01 5.5-.8.62-4.12-5.45.91-.67zm-3.1 3.11l.78-.85 5.14 4.27-.72.79-5.2-4.21zM6.12 8.09l.57-1.08 6.07 2.89-.45.94L6.1 8.1zm-.77 3.01l.21-1.11 6.6 1.42-.14.96-6.67-1.27zM5 14h7v-1H5z" fill="#F27009"></path></g></svg>            Posted 10 min ago by <b class="fc-light">Piper Lawson, Developer for Launchpad</b></p>
+		          <div class="grid mt16">
+		            <div class="grid--cell">
+		              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+		              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+		              <button class="s-btn s-btn__outlined" type="button">Comment</button>
+		              <button class="s-btn s-btn__muted s-btn__outlined" type="button">Copy Link</button>
+		              <button class="s-btn s-btn__muted s-btn__outlined" type="button">Hide</button>
+		              <button class="s-btn s-btn__muted s-btn__outlined" type="button">Report</button>
+		            </div>
+		          </div>
+
+		        </div>
+		        <div id="AMA-Sample" class="s-card bs-sm mb24 p24">
+		          <h3>Our AMA with Gail, Senior Director of Developer Ecosystem and Services will be this Friday, August 31st at 9am EST. Don't forget to sign up for the event or ask your questions now!
+		          </h3>
+
+		          <div class="grid ai-center ba bc-black-3 fd-column">
+		            <div class="grid--cell"><img src="https://static.ebayinc.com/static/assets/Uploads/Content/SB/_resampled/FillWzczNCw0MTNd/GailonStage2.jpg"></div>
+
+		            <div class="grid">
+		              <div class="grid--cell p16 fw-bold ta-center fc-black-500">Aug<br>31</div>
+		              <div class="grid--cell wmx5 p16">
+		                <h4 class="mb0">AMA with Gail, eBay Senior Director of Developer Ecosystem and Services</h4>
+		                <p class="fc-light mb0 mt2">Public &bull; Hosted by Froogle</p>
+		              </div>
+		              <div class="grid--cell">
+		                <a href="event.html" class="s-btn s-btn__outlined mt16" type="button">Browse the AMA</a>
+		              </div>
+		            </div>
+		          </div>
+		          <br>
+		          <p class="fs-caption fc-light fw-bold mb4">321 votes &bull; 1.4k views</p>
+		          <p class="fs-caption fc-black-300 fs-italic"><svg aria-hidden="true" class="svg-icon iconLogoGlyphXxs native" width="18" height="18" viewBox="0 0 18 18"><g><path fill="#9EA3A9" d="M13 15v-3h1v4H3v-4h1v3z"></path><path d="M10.93 2.06l4.01 5.5-.8.62-4.12-5.45.91-.67zm-3.1 3.11l.78-.85 5.14 4.27-.72.79-5.2-4.21zM6.12 8.09l.57-1.08 6.07 2.89-.45.94L6.1 8.1zm-.77 3.01l.21-1.11 6.6 1.42-.14.96-6.67-1.27zM5 14h7v-1H5z" fill="#F27009"></path></g></svg>            Posted 10 min ago by <b class="fc-light">Piper Lawson, Developer for Launchpad</b></p>
+
+		        </div>
+		        <div id="Twitter Feed Sample" class="s-card bs-sm mb24 p24">
+		          <h3>Announcing beta availability of Second Generation runtime PHP 7.2 on Froogle App Engine.
+		          </h3>
+		          <p>Today, Google Cloud is announcing the availability of PHP 7.2 on the App Engine standard environment, our latest Second Generation runtime. It is available today in beta, so you can build and deploy reliable applications with even more flexibility.</p>
+		          <p><a>digest.froogle.com/2018/0... <svg aria-hidden="true" class="mb2 svg-icon iconShareSm native" width="14" height="14" viewBox="0 0 14 14"><path fill="#0077CC" d="M11 4.5L6.5 9 5 7.5 9.5 3H7V1h6v6h-2V4.5zM5 1v2H3v8h8V9h2v2a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h2z"></path></svg></a></p>
+		          <p class="fs-caption fc-light fw-bold mb4">115 votes &bull; 523 views</p>
+		          <p class="fs-caption fc-black-300 fs-italic"><svg aria-hidden="true" class="svg-icon iconTwitter native" width="18" height="18" viewBox="0 0 18 18"><path d="M17 4.04c-.59.26-1.22.43-1.88.51a3.3 3.3 0 0 0 1.44-1.81c-.64.37-1.34.64-2.09.79a3.28 3.28 0 0 0-5.6 2.99A9.3 9.3 0 0 1 2.12 3.1a3.28 3.28 0 0 0 1.02 4.38 3.28 3.28 0 0 1-1.49-.4v.03a3.29 3.29 0 0 0 2.64 3.22 3.34 3.34 0 0 1-1.48.06 3.29 3.29 0 0 0 3.07 2.28 6.58 6.58 0 0 1-4.85 1.36 9.33 9.33 0 0 0 5.04 1.47c6.04 0 9.34-5 9.34-9.33v-.42a6.63 6.63 0 0 0 1.63-1.7L17 4.04z" fill="#2AA3EF"></path></svg>            Posted 2 days ago via Twitter</p>
+		          <div class="grid mt16">
+		            <div class="grid--cell">
+		              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+		              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+		              <button class="s-btn s-btn__outlined" type="button">Comment</button>
+		              <button class="s-btn s-btn__muted s-btn__outlined" type="button">Copy Link</button>
+		              <button class="s-btn s-btn__muted s-btn__outlined" type="button">Hide</button>
+		              <button class="s-btn s-btn__muted s-btn__outlined" type="button">Report</button>
+		            </div>
+		          </div>
+
+		        </div>
+		        <div id="Tech Talks Sample" class="s-card bs-sm mb24 p24">
+		          <h3>If you missed your favorite talks, or you want to refresh what you learned at the conference, you can (re)watch recordings of the Keynotes and Sessions on the I/O website at your convenience.
+		          </h3>
+		          <p>Froogle I/O Innovation Summit Keynotes & Sessions</p>
+		          <p><a>froogleio.com/recordings <svg aria-hidden="true" class="mb2 svg-icon iconShareSm native" width="14" height="14" viewBox="0 0 14 14"><path fill="#0077CC" d="M11 4.5L6.5 9 5 7.5 9.5 3H7V1h6v6h-2V4.5zM5 1v2H3v8h8V9h2v2a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h2z"></path></svg></a></p>
+		          <p class="fs-caption fc-light fw-bold mb4">341 votes &bull; 2.3k views</p>
+		          <p class="fs-caption fc-black-300 fs-italic"><svg aria-hidden="true" class="svg-icon iconTwitter native" width="18" height="18" viewBox="0 0 18 18"><path d="M17 4.04c-.59.26-1.22.43-1.88.51a3.3 3.3 0 0 0 1.44-1.81c-.64.37-1.34.64-2.09.79a3.28 3.28 0 0 0-5.6 2.99A9.3 9.3 0 0 1 2.12 3.1a3.28 3.28 0 0 0 1.02 4.38 3.28 3.28 0 0 1-1.49-.4v.03a3.29 3.29 0 0 0 2.64 3.22 3.34 3.34 0 0 1-1.48.06 3.29 3.29 0 0 0 3.07 2.28 6.58 6.58 0 0 1-4.85 1.36 9.33 9.33 0 0 0 5.04 1.47c6.04 0 9.34-5 9.34-9.33v-.42a6.63 6.63 0 0 0 1.63-1.7L17 4.04z" fill="#2AA3EF"></path></svg>            Posted 5 days ago via Twitter</p>
+		          <div class="grid mt16">
+		            <div class="grid--cell">
+		              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+		              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+		              <button class="s-btn s-btn__outlined" type="button">Comment</button>
+		              <button class="s-btn s-btn__muted s-btn__outlined" type="button">Copy Link</button>
+		              <button class="s-btn s-btn__muted s-btn__outlined" type="button">Hide</button>
+		              <button class="s-btn s-btn__muted s-btn__outlined" type="button">Report</button>
+		            </div>
+		          </div>
+
+		        </div>
+
+		        <div class="grid ff-column-nowrap mt16">
+		          <button class="grid--cell s-btn s-btn__outlined" type="button">See all posts by eBay</button>
+		        </div>
+		      </div>
+		    </div>
+		    <!-- END LEFT COLUMN -->
+		    <!-- BEGIN RIGHT COLUMN -->
+		    <div id="right-column" class="grid--cell5 mt24">
+
+		      <div class="s-sidebarwidget">
+		        <div class="s-sidebarwidget--header grid">
+		          <span class="grid--cell fl1">Community Overview</span>
+		          <a class="js-edit-watched-tags grid--cell ml12 d-none" href="/users/tag-notifications/3281191#watching-1">edit</a>
+		        </div>
+
+		        <div class="p16">
+		          <div class="fs-title mb8">
+		            12,108 <span class="tt-uppercase fc-light fs-caption">aggregate reputation</span>
+		          </div>
+
+		          <div class="grid gs8 mt8">
+		            <div class="grid--cell">
+		              <p class="fs-body1 fc-light">213 team members on Stack Overflow</p>
+		            </div>
+		            <div class="grid--cell">
+
+		              <div class="s-avatar s-avatar__sm ba bc-white box-content">
+		                <div class="s-avatar--letter"><img src="https://i.stack.imgur.com/HBzom.jpg?s=32&g=1" width="100%"></div>
+		              </div>
+		              <div class="s-avatar s-avatar__sm mln8 ba bc-white box-content">
+		                <div class="s-avatar--letter"><img src="https://i.stack.imgur.com/ee9qe.jpg?s=32&g=1" width="100%"></div>
+		              </div>
+		              <div class="s-avatar s-avatar__sm mln8 ba bc-white box-content">
+		                <div class="s-avatar--letter"><img src="https://www.gravatar.com/avatar/01438c3df63caf4c986268852935fcbd?s=32&d=identicon&r=PG" width="100%"></div>
+		              </div>
+		              <div class="s-avatar s-avatar__sm mln8 ba bc-white box-content">
+		                <div class="s-avatar--letter"><img src="https://www.gravatar.com/avatar/baa5ba5f65fdfc936bd0e74c4c5cfef7?s=32&d=identicon&r=PG&f=1" width="100%"></div>
+		              </div>
+		              <div class="s-avatar s-avatar__sm mln8 ba bc-white box-content">
+		                <div class="s-avatar--letter"><img src="https://www.gravatar.com/avatar/4c70ce00d59662f812dde08913649c82?s=32&d=identicon&r=PG&f=1" width="100%"></div>
+		              </div>
+		              <div class="s-avatar s-avatar__sm mln8 ba bc-white box-content">
+		                <div class="s-avatar--letter"><img src="https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M/photo.jpg?sz=32" width="100%"></div>
+		              </div>
+		              <div class="s-avatar s-avatar__sm mln8 ba bc-white box-content">
+		                <div class="s-avatar--letter"><img src="https://www.gravatar.com/avatar/848870b4043d5ca319aa3111cb55845b?s=32&d=identicon&r=PG" width="100%"></div>
+		              </div>
+		              <div class="s-avatar s-avatar__sm mln8 ba bc-white box-content">
+		                <div class="s-avatar--letter"><img src="https://www.gravatar.com/avatar/8f1b86f59f4a2b2c0173833b26f794d5?s=32&d=identicon&r=PG&f=1" width="100%"></div>
+		              </div>
+		              <div class="s-avatar s-avatar__sm mln8 ba bc-white box-content">
+		                <div class="s-avatar--letter"><img src="https://lh6.googleusercontent.com/-cSvpCijBcRw/AAAAAAAAAAI/AAAAAAAAAAA/APUIFaNOwFlzWVPCKkt288q1dPWKCvACow/mo/photo.jpg?sz=32" width="100%"></div>
+		              </div>
+		            </div>
+
+		          </div>
+
+		          <div>
+		            <span class="s-badge s-badge__rep m2">AMA Participant</span>
+		            <span class="s-badge s-badge__rep m2">Transparent</span>
+		            <span class="s-badge s-badge__rep m2">High Response Rate</span>
+		            <span class="s-badge s-badge__rep m2">Stack Overflow Staff Pick</span>
+		            <span class="s-badge s-badge__rep m2">Not a Robot</span>
+		            <span class="s-badge s-badge__rep m2">Joel Tested</span>
+		          </div>
+
+		          <span class="d-inline-block pt4 pb4 fc-light">
+					              <svg aria-hidden="true" class="svg-icon iconArrowUp native" width="18" height="18" viewBox="0 0 18 18"><path fill="#535A60" d="M1 13h16L9 5z"></path></svg>
+					              <span class="pl8">951,688 developers upvoted</span>
+		          </span>
+
+		          <br>
+		          <span class="d-inline-block pt4 pb4 fc-light">
+					              <svg aria-hidden="true" class="svg-icon iconRss native" width="18" height="18" viewBox="0 0 18 18"><path fill="#535A60" d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z"></path></svg>
+					              <span class="pl8">645,814 developers follow</span>
+		          </span>
+		        </div>
+		      </div>
+		      <div class="s-sidebarwidget mt16">
+						<div class="s-sidebarwidget--header grid">
+							<span class="grid--cell fl1">Jobs at Froogle</span>
+						</div>
+						<div class="s-sidebarwidget--content">
+							<img src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" class="bar-sm mr8 job-sidebar-image">
+							<div class="lh4">
+								<strong>Associate Systems Engineer - Logistics</strong>
+								<br> Froogle - Bellevue, WA
+							</div>
+						</div>
+						<div class="s-sidebarwidget--content">
+							<img src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" class="bar-sm mr8 job-sidebar-image">
+							<div class="lh4">
+								<strong>Lead Systems & Integration Technologist</strong>
+								<br> Froogle - Bellevue, WA
+							</div>
+						</div>
+						<div class="s-sidebarwidget--content">
+							<img src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" class="bar-sm mr8 job-sidebar-image">
+							<div class="lh4">
+								<strong>Engineering Project Manager</strong>
+								<br> Froogle - Colorado Springa, CO
+							</div>
+						</div>
+						<div class="s-sidebarwidget--content">
+							<img src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" class="bar-sm mr8 job-sidebar-image">
+							<div class="lh4">
+								<strong>Technical Expert - Integration</strong>
+								<br> Froogle - Bentonville, AR
+							</div>
+						</div>
+
+		      </div>
+		      <div class="s-sidebarwidget mt16">
+		        <div class="s-sidebarwidget--header grid">
+		          <span class="grid--cell fl1">Developer Projects</span>
+		        </div>
+		        <div class="s-sidebarwidget--content">
+		          <img src="https://avatars0.githubusercontent.com/u/863583?s=96&v=4" class="bar-sm mr8 job-sidebar-image">
+		          <div class="lh4">
+		            <strong>Frogotto & Friends</strong>
+		            <br> Frogatto & Friends is an action-adventure game, starring a certain quixotic frog.
+		            <br>
+		            <a class="grid--cell s-tag" href="#">ruby</a>
+		          </div>
+		        </div>
+		        <div class="s-sidebarwidget--content">
+		          <img src="https://avatars0.githubusercontent.com/u/3477613?s=96&v=4" class="bar-sm mr8 job-sidebar-image">
+		          <div class="lh4">
+		            <strong>jQuery-lazyload-any</strong>
+		            <br> A jQuery plugin provides a lazyload function for images, iframe or anything.<br>
+		            <a class="grid--cell s-tag" href="#">javascript</a>
+		          </div>
+		        </div>
+		        <div class="s-sidebarwidget--content">
+		          <img src="https://avatars2.githubusercontent.com/u/3044901?s=96&v=4" class="bar-sm mr8 job-sidebar-image">
+		          <div class="lh4">
+		            <strong>/appear</strong>
+		            <br> Execute callbacks when dom elements appear in and out of view
+		            <br>
+		            <a class="grid--cell s-tag" href="#">HTML</a> <a class="grid--cell s-tag" href="#">open source</a>
+		          </div>
+		        </div>
+		        <div class="s-sidebarwidget--content">
+		          <img src="https://avatars1.githubusercontent.com/u/573910?s=96&v=4" class="bar-sm mr8 job-sidebar-image">
+		          <div class="lh4">
+		            <strong>Chocolat</strong>
+		            <br> the lightbox so cool horses use it 🐴
+		            <br>
+		            <a class="grid--cell s-tag" href="#">jquery</a>
+		            <a class="grid--cell s-tag" href="#">lightbox</a>
+		            <a class="grid--cell s-tag" href="#">responsive</a>
+		          </div>
+		        </div>
+
+		      </div>
+		    </div>
+		    <!-- END RIGHT COLUMN -->
+		  </div>
+		</div>
+		<!--//////////////////// END PAGE /////////////////////-->
+
+	</body>
+
+</html>

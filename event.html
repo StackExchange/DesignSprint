@@ -1,0 +1,470 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://unpkg.com/@stackoverflow/stacks">
+		<link rel="stylesheet" href="styles/inherit.css">
+		<link rel="stylesheet" href="styles/event.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	</head>
+
+	<body class="home-page unified-theme new-topbar">
+		<header class="top-bar js-top-bar _fixed top-bar__network">
+    		<div class="-container">
+        		<div class="-main">
+                    <a href="https://gh.stackoverflow.com/pages/Careers/DesignSprint" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})"><span class="-img _glyph">Stack Overflow</span></a>
+				</div>
+
+            	<form id="search" action="/search" method="get" class="searchbar js-searchbar " autocomplete="off" role="search">
+                    <div class="ps-relative">
+                        <input name="q" type="text" placeholder="Search questions&#44; jobs&#44; companies" value="" autocomplete="off" maxlength="240" class="f-input js-search-field ">
+                        <button type="submit" aria-label="Search questions&#44; jobs&#44; companies" class="s-btn s-btn__primary btn-topbar-primary js-search-submit"><svg aria-hidden="true" class="svg-icon mx0 iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></button>
+                    </div>
+            	</form>
+				<ol class="-secondary js-secondary-topbar-links drop-icons-responsively the-js-is-handling-responsiveness">
+	        		<li class="-item searchbar-trigger js-searchbar-trigger"><a href="#" class="-link"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></a></li>
+	                <li class="-item">
+		                <a href="/users/7439837/piper-lawson" class="my-profile js-gps-track" data-gps-track="profile_summary.click()">
+		                	<div class="gravatar-wrapper-24" title="Piper Lawson"><img src="https://lh6.googleusercontent.com/-8zNw0Ta8B4U/AAAAAAAAAAI/AAAAAAAAACU/6Lfp2mHwT6I/photo.jpg?sz=48" alt="" width="24" height="24" class="-avatar js-avatar-me"></div>
+		                    <div class="-rep js-header-rep" title="your reputation: 1">1</div>
+	                	</a>
+	            	</li>
+			        <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages">
+				            <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewBox="0 0 20 18"><path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z"></path></svg>
+				            <span class="indicator-badge js-unread-count _important" style="display: none;"></span>
+				        </a>
+				    </li>
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive">
+				            <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"></path></svg>
+				            <span class="indicator-badge js-unread-count _positive" style="display: none;"></span>
+				        </a>
+				    </li>
+
+				    <li class="-item review-button-item" data-remove-order="2">
+				        <a href="/review" class="-link js-gps-track js-review-button _danger-indicator" title="Review queues - help improve the site" data-gps-track="review_popup.click({ in_danger: true })">
+				            <svg aria-hidden="true" class="svg-icon iconReviewQueue" width="18" height="18" viewBox="0 0 18 18"><path d="M16 7.5l-5 4.97-1.79-1.77a1 1 0 0 0-1.4 0l-2.1 2.1a1 1 0 0 0 0 1.4L8.5 17H2a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v4.5zM12 7H2v2h10V7zm2-4H2v2h12V3zM2 11v2h3v-2H2zm16-.5l-7 7-4-4L8.5 12l2.5 2.5L16.5 9l1.5 1.5z"></path></svg>
+				        </a>
+
+				    </li>
+				    <li class="-item help-button-item" data-remove-order="1"><a href="#" class="-link js-help-button" title="Help Center and other resources">
+				        <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"></path></svg>
+				    </a></li>
+
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 1 Stack Exchange site">
+				            <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"></path></svg>
+				        </a>
+				    </li>
+				</ol>
+			</div>
+		</header>
+
+		<div class="container">
+			<div class="w100 mt32">
+
+				<div class="grid grid__fl1">
+					<div class="grid--cell ta-center">
+						<div class="s-avatar s-avatar__xl" style="background-image: url('images/avatar-3.jpg'); background-size: cover;"></div>
+			        	<h1 class="fw-normal mb4">AMA with Gail Porat, Engineering Manager at Froogle</h1>
+			            <p class="fs-body2 fc-black-750 mb8">Wednesday, Aug. 30 at 12pm</p>
+			            <div class="grid gs4 mb16" style="justify-content: center;">
+			            	<span class="grid--cell s-badge .s-badge__votes">321 votes</span>
+			            	<span class="grid--cell s-badge .s-badge__answered">1.4k views</span>
+			            	<span class="grid--cell s-badge .s-badge__answered">400 participants</span>
+			            	<span class="grid--cell s-badge .s-badge__answered">Live now</span>
+			            </div>
+				    </div>
+	    		</div>
+
+	    		<div class="grid jc-center mt24">
+	    			<div class="grid--cell8">
+			    		<div class="grid gs24 bb bc-black-1 pb24 mb32">
+			    			<div class="grid--cell ta-center vote">
+			    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 14l5-5 5 5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+			    				<div class="fs-body3 fc-black-600">25</div>
+			    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+			    			</div>
+			    			<div class="grid--cell fl1">
+			    				<p class="fs-body3 fc-black-750 mb0">I am an engineering manager at Froogle. I'm one of the early employees who worked on our search platform, and I've been with the company as we grew exponentially over these past two decades.
+								I'm here to answer your questions about how we hire, our teams, our internal tech culture, and more. Ask me anything!</p>
+			    			</div>
+			    		</div>
+
+			    									<div class="question-body grid ff-column-nowrap gs4 gsy">
+			    				<label class="grid--cell s-label" for="example-item">Your Question</label>
+			    				<textarea class="grid--cell s-textarea" id="new-question-input" placeholder="..."></textarea>
+							</div>
+
+							<button id="buttonNewQuestion" class="post-question s-btn s-btn__primary" type="button">Post Your Question</button>
+
+
+				<article id = "newQuestion" class="question s-card bs-lg bs-hover" style="display:none">
+
+			    		<div class="grid gs24 bb bc-black-1 pb24 mb32">
+			    			<div class="grid--cell ta-center vote">
+			    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 14l5-5 5 5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+			    				<div class="fs-body3 fc-black-600">0</div>
+			    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+			    			</div>
+			    			<div class="grid--cell fl1">
+			    				<p class="fs-body3 fc-black-750 mb0" id="newQuestionText"></p>
+			    			</div>
+			    			<div class="grid--cell">
+										<div class="user-info user-hover">
+				    						<div class="user-gravatar32">
+				        						<img src="https://lh6.googleusercontent.com/-8zNw0Ta8B4U/AAAAAAAAAAI/AAAAAAAAACU/6Lfp2mHwT6I/photo.jpg?sz=48" alt="" width="32" height="32">
+				        					</div>
+								   		</div>
+								    	<div class="user-details">
+								        	Piper Lawson
+								    	</div>
+									<div class="clearfix"></div>
+			    			</div>
+			    		</div>
+
+
+
+
+			    	</article>
+
+				<article class="question s-card bs-lg bs-hover">
+
+			    		<div class="grid gs24 bb bc-black-1 pb24 mb32">
+			    			<div class="grid--cell ta-center vote">
+			    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 14l5-5 5 5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+			    				<div class="fs-body3 fc-black-600">93</div>
+			    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+			    			</div>
+			    			<div class="grid--cell fl1">
+			    				<p class="fs-body3 fc-black-750 mb0">How easy is it for developers to switch between teams? Do you encourage this at Froogle or do you typically hire developers for specific teams?</p>
+			    			</div>
+			    			<div class="grid--cell">
+										<div class="user-info user-hover">
+				    						<div class="user-gravatar32">
+				        						<img src="images/avatar-1.jpg" alt="" width="32" height="32">
+				        					</div>
+								   		</div>
+								    	<div class="user-details">
+								        	Ian McKenzie
+								    	</div>
+									<div class="clearfix"></div>
+			    			</div>
+			    		</div>
+
+						<article class="answer s-card bs-lg bs-hover">
+
+				    		<div class="grid gs24 bb bc-black-1 pb24 mb32">
+				    			<div class="grid--cell ta-center vote">
+				    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 14l5-5 5 5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+				    				<div class="fs-body3 fc-black-600">3</div>
+				    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+				    			</div>
+				    			<div class="grid--cell fl1">
+				    				<p class="fs-body3 fc-black-750 mb0">We strongly encourage personal growth. We're always working with our engineers to find the right team, the right challenges for them to take on next. We usually hire people who would be great for any team, and then place them onto a team as needed.</p>
+				    			</div>
+
+				    						    			<div class="grid--cell">
+										<div class="user-info user-hover">
+				    						<div class="user-gravatar32">
+				        						<img src="images/avatar-3.jpg" alt="" width="32" height="32">
+				        					</div>
+								   		</div>
+								    	<div class="user-details">
+								        	Gail Porat
+								    	</div>
+									<div class="clearfix"></div>
+			    			</div>
+				    		</div>
+
+			    		</article>
+
+
+						<article class="answer s-card bs-lg bs-hover">
+
+				    		<div class="grid gs24 bb bc-black-1 pb24 mb32">
+				    			<div class="grid--cell ta-center vote">
+				    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 14l5-5 5 5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+				    				<div class="fs-body3 fc-black-600">6</div>
+				    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+				    			</div>
+				    			<div class="grid--cell fl1">
+				    				<p class="fs-body3 fc-black-750 mb0">That's great! How do you handle highly specialized roles?</p>
+				    			</div>
+
+			    			<div class="grid--cell">
+										<div class="user-info user-hover">
+				    						<div class="user-gravatar32">
+				        						<img src="images/avatar-8.jpg" alt="" width="32" height="32">
+				        					</div>
+								   		</div>
+								    	<div class="user-details">
+								        	Kirti Mendes
+								    	</div>
+									<div class="clearfix"></div>
+			    			</div>
+				    		</div>
+
+			    		</article>
+
+			    										<button class="more-questions s-btn s-btn__outlined mb20"> See 3 more </button>
+
+
+			    	</article>
+
+
+
+						<article class="question s-card bs-lg bs-hover">
+
+			    		<div class="grid gs24 bb bc-black-1 pb24 mb32">
+			    			<div class="grid--cell ta-center vote">
+			    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 14l5-5 5 5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+			    				<div class="fs-body3 fc-black-600">72</div>
+			    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+			    			</div>
+			    			<div class="grid--cell fl1">
+			    				<p class="fs-body3 fc-black-750 mb0">Hi Gail, Froogle has become a household name, it'd be hard to find someone who hasn't heard of you. What were the key success factors in scaling Froogle into such a successful and vibrant community?</p>
+			    			</div>
+			    			<div class="grid--cell">
+										<div class="user-info user-hover">
+				    						<div class="user-gravatar32">
+				        						<img src="images/avatar-2.jpg" alt="" width="32" height="32">
+				        					</div>
+								   		</div>
+								    	<div class="user-details">
+								        	Max Felix
+								    	</div>
+									<div class="clearfix"></div>
+			    			</div>
+			    		</div>
+
+						<article class="answer s-card bs-lg bs-hover">
+
+				    		<div class="grid gs24 bb bc-black-1 pb24 mb32">
+				    			<div class="grid--cell ta-center vote">
+				    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 14l5-5 5 5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+				    				<div class="fs-body3 fc-black-600">43</div>
+				    				<a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewbox="0 0 24 24"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg></a>
+				    			</div>
+				    			<div class="grid--cell fl1">
+				    				<p class="fs-body3 fc-black-750 mb0">wow, so many things! But mostly: <ul>
+											<li>loading fast </li>
+											<li>keeping things simple</li>
+											<li>being embeddable everywhere</li>
+											<li>focus on our core, then expand outwards</li>
+											<li>never losing sight of what's right for our users</li>
+										</ul></p>
+				    			</div>
+
+				    						    			<div class="grid--cell">
+										<div class="user-info user-hover">
+				    						<div class="user-gravatar32">
+				        						<img src="images/avatar-3.jpg" alt="" width="32" height="32">
+				        					</div>
+								   		</div>
+								    	<div class="user-details">
+								        	Gail Porat
+								    	</div>
+									<div class="clearfix"></div>
+			    			</div>
+				    		</div>
+
+			    		</article>
+
+
+
+
+
+			    	</article>
+
+
+			    		<div>
+
+
+
+<!--
+							<article class="question s-card bs-lg bs-hover">
+							    <p class="fs-caption fc-light">Hi Gail! Thanks for hosting this AMA! What advice would you give to someone just starting off with software development?</p>
+								<div class="grid-cell">
+					              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+					              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+					              <button class="s-btn s-btn__primary" type="button">Comment</button>
+					              <div class="post-signature owner float-right">
+										<div class="user-info user-hover">
+				    						<div class="user-gravatar32">
+				        						<img src="images/avatar-5.jpg" alt="" width="32" height="32">
+				        					</div>
+								   		</div>
+								    	<div class="user-details">
+								        	Puneet Rai
+								    	</div>
+									</div>
+									<div class="clearfix"></div>
+				    			</div>
+
+								<article class="answer s-card bs-lg bs-hover">
+								    <p class="fs-caption fc-light">Get your hands dirty! Don't focus too much on which language or framework to use, just pick one and build projects. And network: go out and meet others in the field. Some of the best jobs I've had came from referrals from people I'd met at meetups.
+									</p>
+									<div class="grid-cell">
+						              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+						              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+						              <div class="post-signature owner float-right">
+											<div class="user-info user-hover">
+					    						<div class="user-gravatar32">
+					        						<img src="https://static.ebayinc.com/static/assets/Uploads/Content/SB/_resampled/FillWzczNCw0MTNd/GailonStage2.jpg" alt="" width="32" height="32">
+					        					</div>
+									   		</div>
+									    	<div class="user-details">
+									        	Gail Porat
+									    	</div>
+										</div>
+										<div class="clearfix"></div>
+					    			</div>
+								</article>
+
+								<article class="answer s-card bs-lg bs-hover">
+								    <p class="fs-caption fc-light">Also get involved with open source projects where possible. It's a great way to build up a portfolio.
+									</p>
+									<div class="grid-cell">
+						              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+						              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+						              <div class="post-signature owner float-right">
+											<div class="user-info user-hover">
+					    						<div class="user-gravatar32">
+					        						<img src="images/avatar-6.png" alt="" width="32" height="32">
+					        					</div>
+									   		</div>
+									    	<div class="user-details">
+									        	Gervasio Silvera
+									    	</div>
+										</div>
+										<div class="clearfix"></div>
+					    			</div>
+								</article>
+
+								<button class="more-questions s-btn s-btn__outlined mb20"> Show 19 more </button>
+							</article>
+
+							<article class="question s-card bs-lg bs-hover">
+							    <p class="fs-caption fc-light">How do you find your role has evolved as the engineering team expanded? We just raised a round to grow our team, any pitfalls to avoid?</p>
+								<div class="grid-cell">
+					              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+					              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+					              <button class="s-btn s-btn__primary" type="button">Comment</button>
+					              <div class="post-signature owner float-right">
+										<div class="user-info user-hover">
+				    						<div class="user-gravatar32">
+				        						<img src="images/avatar-7.jpg" alt="" width="32" height="32">
+				        					</div>
+								   		</div>
+								    	<div class="user-details">
+								        	Desiree Kranzer
+								    	</div>
+									</div>
+									<div class="clearfix"></div>
+				    			</div>
+
+				    			<article class="answer s-card bs-lg bs-hover">
+								    <p class="fs-caption fc-light">Best advice I can give you here: make your processes malleable: easy to change and adapt. Hiring bursts are inherently unpredictable and will result in large changes in team dynamics. As a manager, especially earlier on, you focus on building the right processes to optimize team efficiency. But as your team grows larger, you'll need to shift focus to things like maintaining team knowledge, stability, and focus despite the increase in turnover.
+									</p>
+									<div class="grid-cell">
+						              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+						              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+						              <div class="post-signature owner float-right">
+											<div class="user-info user-hover">
+					    						<div class="user-gravatar32">
+					        						<img src="https://static.ebayinc.com/static/assets/Uploads/Content/SB/_resampled/FillWzczNCw0MTNd/GailonStage2.jpg" alt="" width="32" height="32">
+					        					</div>
+									   		</div>
+									    	<div class="user-details">
+									        	Gail Porat
+									    	</div>
+										</div>
+										<div class="clearfix"></div>
+					    			</div>
+								</article>
+
+								<article class="answer s-card bs-lg bs-hover">
+								    <p class="fs-caption fc-light">Pitfall: don't compromise on your hiring standards just because you're under pressure to fill many roles. We made that mistake as we were growing, it's much worse to deal with down the road, both for you and the employee you hired. .
+									</p>
+									<div class="grid-cell">
+						              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+						              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+						              <div class="post-signature owner float-right">
+											<div class="user-info user-hover">
+					    						<div class="user-gravatar32">
+					        						<img src="images/avatar-9.jpg" alt="" width="32" height="32">
+					        					</div>
+									   		</div>
+									    	<div class="user-details">
+									        	Courtny Milofsky
+									    	</div>
+										</div>
+										<div class="clearfix"></div>
+					    			</div>
+								</article>
+								<button class="more-questions s-btn s-btn__outlined mb20"> See 9 more </button>
+							</article>
+
+							<article class="question s-card bs-lg bs-hover">
+							    <p class="fs-caption fc-light">Do you hire remote developers? If so, how do you manage them?</p>
+								<div class="grid-cell">
+					              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+					              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+					              <button class="s-btn s-btn__primary" type="button">Comment</button>
+					              <div class="post-signature owner float-right">
+										<div class="user-info user-hover">
+				    						<div class="user-gravatar32">
+				        						<img src="images/avatar-3.jpg" alt="" width="32" height="32">
+				        					</div>
+								   		</div>
+								    	<div class="user-details">
+								        	Piper Johannsen
+								    	</div>
+									</div>
+									<div class="clearfix"></div>
+				    			</div>
+
+				    			<article class="answer s-card bs-lg bs-hover">
+								    <p class="fs-caption fc-light">No, unfortunately all our engineering roles are based out of our offices. We do offer a very flexible schedule, unlimited vacation, and the option to take work-from-home days.
+									</p>
+									<div class="grid-cell">
+						              <button class="s-btn s-btn__outlined" type="button">Upvote</button>
+						              <button class="s-btn s-btn__outlined" type="button">Downvote</button>
+						              <div class="post-signature owner float-right">
+											<div class="user-info user-hover">
+					    						<div class="user-gravatar32">
+					        						<img src="https://static.ebayinc.com/static/assets/Uploads/Content/SB/_resampled/FillWzczNCw0MTNd/GailonStage2.jpg" alt="" width="32" height="32">
+					        					</div>
+									   		</div>
+									    	<div class="user-details">
+									        	Gail Porat
+									    	</div>
+										</div>
+										<div class="clearfix"></div>
+					    			</div>
+								</article>
+
+							</article> -->
+
+							<button class="more-questions s-btn s-btn__outlined mb20"> Show more questions </button>
+
+
+			    		</div> <!-- ama -->
+			    	</div>
+		    	</div>
+			</div>	<!-- content -->
+		</div>
+
+		<script type="text/javascript">
+			$("#buttonNewQuestion").click(function() {
+				var foo = $("#new-question-input").val();
+				$("#new-question-input").val("");
+				$("#newQuestionText").html(foo);
+				$("#newQuestion").fadeIn(1000);
+			});
+
+		</script>
+
+	</body>
+
+</html>

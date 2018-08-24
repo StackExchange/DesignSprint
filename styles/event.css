@@ -1,0 +1,54 @@
+.hero {
+    position: relative;
+    color: #000;
+    font-size: 17px;
+    line-height: 1.53333333;
+    overflow: hidden;
+    background: #E1ECF4;
+    margin-bottom: 24px;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 24px;    
+}
+
+.intro {
+	border-color: #F48024;
+}
+
+.ama {
+	margin: 0 30px;	
+}
+
+article {
+	margin-bottom: 20px;
+}
+
+article.question, article.answer {
+    box-shadow: none !important;
+}
+
+.question-body {
+	margin-bottom: 20px;
+}
+
+.more-questions {
+	margin-bottom: 20px;
+}
+
+.post-question {
+	margin-bottom: 50px;
+}
+
+.vote svg {
+    fill: #BBC0C4;
+}
+
+div.bb {
+    border-bottom-style: none !important;
+
+}
+
+
+div.pb24 {
+    padding-bottom: 0 !important;
+}

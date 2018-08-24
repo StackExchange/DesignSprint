@@ -1,0 +1,342 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="https://unpkg.com/@stackoverflow/stacks">
+		<link rel="stylesheet" href="styles/inherit.css">
+		<link rel="stylesheet" href="styles/company.css">
+	</head>
+
+	<body class="home-page unified-theme new-topbar">
+		<header class="top-bar js-top-bar _fixed top-bar__network">
+    		<div class="-container">
+        		<div class="-main">
+                    <a href="https://gh.stackoverflow.com/pages/Careers/DesignSprint" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:true, location:1, destination:8})"><span class="-img _glyph">Stack Overflow</span></a>
+				</div>
+
+            	<form id="search" action="/search" method="get" class="searchbar js-searchbar " autocomplete="off" role="search">
+                    <div class="ps-relative">
+                        <input name="q" type="text" placeholder="Search questions&#44; jobs&#44; companies" value="" autocomplete="off" maxlength="240" class="f-input js-search-field ">
+                        <button type="submit" aria-label="Search questions&#44; jobs&#44; companies" class="s-btn s-btn__primary btn-topbar-primary js-search-submit"><svg aria-hidden="true" class="svg-icon mx0 iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></button>
+                    </div>
+            	</form>
+				<ol class="-secondary js-secondary-topbar-links drop-icons-responsively the-js-is-handling-responsiveness">
+	        		<li class="-item searchbar-trigger js-searchbar-trigger"><a href="#" class="-link"><svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewBox="0 0 18 18"><path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z"></path></svg></a></li>
+	                <li class="-item">
+		                <a href="/users/7439837/piper-lawson" class="my-profile js-gps-track" data-gps-track="profile_summary.click()">
+		                	<div class="gravatar-wrapper-24" title="Piper Lawson"><img src="https://lh6.googleusercontent.com/-8zNw0Ta8B4U/AAAAAAAAAAI/AAAAAAAAACU/6Lfp2mHwT6I/photo.jpg?sz=48" alt="" width="24" height="24" class="-avatar js-avatar-me"></div>
+		                    <div class="-rep js-header-rep" title="your reputation: 1">1</div>
+	                	</a>
+	            	</li>
+			        <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages">
+				            <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewBox="0 0 20 18"><path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z"></path></svg>
+				            <span class="indicator-badge js-unread-count _important" style="display: none;"></span>
+				        </a>
+				    </li>
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com/users/10065792?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive">
+				            <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewBox="0 0 18 18"><path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z"></path></svg>
+				            <span class="indicator-badge js-unread-count _positive" style="display: none;"></span>
+				        </a>
+				    </li>
+
+				    <li class="-item review-button-item" data-remove-order="2">
+				        <a href="/review" class="-link js-gps-track js-review-button _danger-indicator" title="Review queues - help improve the site" data-gps-track="review_popup.click({ in_danger: true })">
+				            <svg aria-hidden="true" class="svg-icon iconReviewQueue" width="18" height="18" viewBox="0 0 18 18"><path d="M16 7.5l-5 4.97-1.79-1.77a1 1 0 0 0-1.4 0l-2.1 2.1a1 1 0 0 0 0 1.4L8.5 17H2a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v4.5zM12 7H2v2h10V7zm2-4H2v2h12V3zM2 11v2h3v-2H2zm16-.5l-7 7-4-4L8.5 12l2.5 2.5L16.5 9l1.5 1.5z"></path></svg>
+				        </a>
+
+				    </li>
+				    <li class="-item help-button-item" data-remove-order="1"><a href="#" class="-link js-help-button" title="Help Center and other resources">
+				        <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewBox="0 0 18 18"><path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z"></path></svg>
+				    </a></li>
+
+				    <li class="-item">
+				        <a href="https://dev.stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 1 Stack Exchange site">
+				            <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewBox="0 0 18 18"><path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z"></path></svg>
+				        </a>
+				    </li>
+				</ol>
+			</div>
+		</header>
+
+		<!--//////////////////// BEGIN PAGE /////////////////////-->
+
+		<div class="w100 mx-auto mt64 mb64 fc-medium" style="max-width:1264px; padding-left:15px; padding-right:15px;">
+		  <div id="header-content" class="grid gs32 ai-center md:fd-column">
+		    <img class="wmx1 grid--cell ba bc-black-3 bg-white" role="presentation" alt="" src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" id="gh-logo">
+		    <div id="company-name-tagline" class="grid--cell pt16 md:fd-column md:ta-center md:pt0 md:mb0">
+		      <h1 class="fs-display1 lh-xs fw-normal mb8 md:pt16">Froogle</h1>
+		      <p class="fs-title fc-light lh-md">Our vision for commerce is one that is enabled by people, powered by technology, and open to everyone.</p>
+		    </div>
+		  </div>
+
+		 		  <div id="navigation-bar" class="grid by py16 bc-black-3 mb24 mt12">
+				    <div id="nav-items" class="grid--cell byw4 mr-auto">
+				      		      <a class="s-btn s-btn__md grid--cell" href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company">Home</a>
+				      		      <a class="s-btn s-btn__md grid--cell" href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company-questions">Questions & Answers</a>
+				      <a class="s-btn s-btn__md grid--cell" href="https://gh.stackoverflow.com/pages/Careers/DesignSprint/company-review">Reviews</a>
+				      <button class="s-btn s-btn__md" type="button">Jobs</button>
+				      <button class="s-btn s-btn__md" type="button">About</button>
+				    </div>
+				    <div class="grid--cell ml-auto">
+				      <button class="s-btn s-btn__primary" type="button">Follow</button>
+				      <button class="s-btn s-btn__primary" type="button">Ask a Question</button>
+				      <button class="s-btn s-btn__outlined" type="button">Upvote Company</button>
+				      <button class="s-btn s-btn__outlined" type="button">Downvote Company</button>
+				      <button class="s-btn s-btn__outlined" type="button">&bull; &bull; &bull;</svg>
+									        </button>
+				    </div>
+				  </div>
+		  <!-- BEGIN PAGE CONTENT -->
+		  <div class="grid gs32 gsx">
+
+		    <!-- BEGIN LEFT COLUMN -->
+		    <div class="grid--cell7">
+
+		      <div class="fs-body2 mt24">
+		        <div class="grid ac-center jc-space-between">
+		          <div class="grid--cell">
+		            <h2 class="fs-headline1 fw-normal">Froogle Reviews</h2>
+		          </div>
+		          <div class="grid--cell"><button class="s-btn s-btn__primary s-btn__md" type="button">Add your review</button></div>
+		        </div>
+		        <p class="fs-body3 mt16">Hear what developers who have worked or interviewed at Froogle have to say about their experience.</p>
+		        <div id="Review Summary" class="s-card mb24 px32 py16">
+		          <div class="grid">
+		            <div class="grid--cell6">
+		              <h2 class="fc-green-500 mb8">4.0 average</h2>
+		              <span class="bg-green-500 p8 d-inline-block bar-circle">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="24" height="24" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p8 d-inline-block bar-circle">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="24" height="24" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p8 d-inline-block bar-circle">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="24" height="24" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p8 d-inline-block bar-circle">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="24" height="24" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-black-200 p8 d-inline-block bar-circle">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="24" height="24" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <a href="" class="d-block mt12">32 developer reviews</a>
+		            </div>
+		            <div class="grid--cell6">
+		              <h4 class="mb12">Read reviews that mention</h4>
+		              <div class="grid--cell gs4">
+		                <a class="grid--cell s-tag s-tag__muted" href="#">interview</a>
+		                <a class="grid--cell s-tag s-tag__muted" href="#">salary</a>
+		                <a class="grid--cell s-tag s-tag__muted" href="#">management</a>
+		                <a class="grid--cell s-tag s-tag__muted" href="#">benefits</a>
+		                <a class="grid--cell s-tag s-tag__muted" href="#">project management</a>
+		                <a class="grid--cell s-tag s-tag__muted" href="#">technologies</a>
+		                <a class="grid--cell s-tag s-tag__muted" href="#">leadership</a>
+		                <a class="grid--cell s-tag s-tag__muted" href="#">teamwork</a>
+		              </div>
+		            </div>
+		          </div>
+
+		        </div>
+
+		        <div id="Review1" class="s-card mb24 px32 py16">
+		          <div class="mt8">
+		            <h3>"The best place I've worked and also the most demanding."</h3>
+		            <div class="grid--cell6">
+		              <span class="bg-green-500 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-black-200 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		            </div>
+
+		          </div>
+		          <div class="">
+		            <p class="fw-bold fc-green-500 mt16">Pros</p>
+		            <p>You can't find a more well-regarded company that actually deserves the hype it gets. You'll work on cutting edge projects / solve important issues that impact your community and the world You'll meet interesting people who are your colleagues,
+		              managers, and senior management.</p>
+		          </div>
+		          <div class="">
+		            <p class="fw-bold fc-red-500 mt16">Cons</p>
+		            <p>The commute can take between 1.5 hours to 1.75 hours each way on the shuttle - sometimes 2 hours each way on a busy day or rainy day.</p>
+		          </div>
+
+		          <div class="">
+		            <p class="fw-bold mt16">Compensation</p>
+		            <p>Salary: $115k - $130k (annual)</p>
+		          </div>
+
+		          <div class="fc-light bt bc-black-2 pt12 mt16">Current Employee - Anonymous Employee in Mountain View, CA<span class="s-badge s-badge__answered ml8">Verified Employee</span></div>
+		          <div class="fs-caption fc-light mt4">Reviewed on August 7, 2018</div>
+
+		        </div>
+		        <div id="Review2" class="s-card mb24 px32 py16">
+		          <div class="mt8">
+		            <h3>"Unique, one of a kind dream job, with a catch..."</h3>
+		            <div class="grid--cell6">
+		              <span class="bg-green-500 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-green-500 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		            </div>
+
+		          </div>
+		          <div class="">
+		            <p class="fw-bold fc-green-500 mt16">Pros</p>
+		            <p>Froogle is a world of its own. At every other company, there were lots of people who had serious gaps in their skills. At Froogle, I could have a serious work conversation about technology with everyone.
+		Froogle has almost all code in the same source repository. An engineer can look at the code, easily execute because it comes with intelligent defaults and standard build process, and contribute enhancements/bug fixes.
+		</p>
+		          </div>
+		          <div class="">
+		            <p class="fw-bold fc-red-500 mt16">Cons</p>
+		            <p>Promotions tend to be tied to launching a project that makes peers at a higher level happy.
+		Managers tend to become managers for their tech skills and not management skills. This isn’t a complete con because a manager with no clue in tech in worse.
+		</p>
+		          </div>
+
+		          <div class="">
+		            <p class="fw-bold mt16">Compensation</p>
+		            <p>Salary: $90k - $110k (annual)</p>
+		          </div>
+
+		          <div class="fc-light bt bc-black-2 pt12 mt16">Former Employee - Software Developer in Los Angeles, CA</div>
+		          <div class="fs-caption fc-light mt4">Reviewed on July 6th, 2018</div>
+
+		        </div>
+		        <div id="Review3" class="s-card mb24 px32 py16">
+		          <div class="mt8">
+		            <h3>"Great experience but not without issues"</h3>
+		            <div class="grid--cell6">
+		              <span class="bg-orange-400 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-orange-400 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-orange-400 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-black-200 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		              <span class="bg-black-200 p4 d-inline-block bar-circle fs-caption">
+				              <svg aria-hidden="true" class="svg-icon iconStar native" width="16" height="16" viewBox="0 0 18 18"><path fill="#ffffff" d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z"></path></svg>
+				            </span>
+		            </div>
+
+		          </div>
+		          <div class="">
+		            <p class="fw-bold fc-green-500 mt16">Pros</p>
+		            <p>Strong engineering culture, excellent peers, lots of learning opportunities.</p>
+		          </div>
+		          <div class="">
+		            <p class="fw-bold fc-red-500 mt16">Cons</p>
+		            <p>It's a large organization with lots of internal politics and bureaucratic procedures.</p>
+		          </div>
+
+		          <div class="">
+		            <p class="fw-bold mt16">Compensation</p>
+		            <p>Salary: $125k - $132.5k (annual)</p>
+		          </div>
+
+		          <div class="fc-light bt bc-black-2 pt12 mt16">Current Employee - Anonymous Employee in Mountain View, CA<span class="s-badge s-badge__answered ml8">Verified Employee</span></div>
+		          <div class="fs-caption fc-light">Reviewed on May 5, 2018</div>
+
+		        </div>
+
+		        <div class="grid ff-column-nowrap mt16">
+		          <button class="grid--cell s-btn s-btn__outlined" type="button">See all reviews of Froogle</button>
+		        </div>
+		      </div>
+		    </div>
+		    <!-- END LEFT COLUMN -->
+		    <!-- BEGIN RIGHT COLUMN -->
+		    <div id="right-column" class="grid--cell5 mt24">
+
+		      <div class="s-sidebarwidget">
+		        <div class="s-sidebarwidget--header grid">
+		          <span class="grid--cell fl1">What developers are saying</span>
+		        </div>
+		        <div class="s-sidebarwidget--content">
+		          <div class="">
+		            <p class="mb6 fs-body3 fc-blue-600">"The work environment was the best I have been part of."</p>
+		            <p class="mb0 fc-light fs-italic">Current Employee - Anonymous Employee in Mountain View, CA</p>
+		          </div>
+		        </div>
+		        <div class="s-sidebarwidget--content">
+		          <div class="">
+		            <p class="mb6 fs-body3 fc-blue-600">"Great Launchpad!!!!"</p>
+		            <p class="mb0 fc-light fs-italic">Former Employee - Software Developer in Los Angeles, CA</p>
+		          </div>
+		        </div>
+		        <div class="s-sidebarwidget--content">
+		          <div class="">
+		            <p class="mb6 fs-body3 fc-blue-600">"Not as easy to change the Froogle brand as initally thought"</p>
+		            <p class="mb0 fc-light fs-italic">Former Employee - Senior Software Developer in Mountain View, CA</p>
+		          </div>
+		        </div>
+
+		      </div>
+
+		       <div class="s-sidebarwidget mt16">
+				        <div class="s-sidebarwidget--header grid">
+				          <span class="grid--cell fl1">Jobs at Froogle</span>
+				        </div>
+				        <div class="s-sidebarwidget--content">
+				          <img src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" class="bar-sm mr8 job-sidebar-image">
+				          <div class="lh4">
+				            <strong>Associate Systems Engineer - Logistics</strong>
+				            <br> Froogle - Bellevue, WA
+				          </div>
+				        </div>
+				        <div class="s-sidebarwidget--content">
+				          <img src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" class="bar-sm mr8 job-sidebar-image">
+				          <div class="lh4">
+				            <strong>Lead Systems & Integration Technologist</strong>
+				            <br> Froogle - Bellevue, WA
+				          </div>
+				        </div>
+				        <div class="s-sidebarwidget--content">
+				          <img src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" class="bar-sm mr8 job-sidebar-image">
+				          <div class="lh4">
+				            <strong>Engineering Project Manager</strong>
+				            <br> Froogle - Colorado Springa, CO
+				          </div>
+				        </div>
+				        <div class="s-sidebarwidget--content">
+				          <img src="https://dha4w82d62smt.cloudfront.net/items/071E2f2v2A051V1d050r/froogle.png?X-CloudApp-Visitor-Id=2777691&v=23de28f1" class="bar-sm mr8 job-sidebar-image">
+				          <div class="lh4">
+				            <strong>Technical Expert - Integration</strong>
+				            <br> Froogle - Bentonville, AR
+				          </div>
+				        </div>
+
+		    </div>
+		    <!-- END RIGHT COLUMN -->
+		  </div>
+		</div>
+		<!--//////////////////// END PAGE /////////////////////-->
+
+	</body>
+
+</html>
